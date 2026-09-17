@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Trabajos de algoritmos organizados por unidad del ciclo academico." />
+  <title>Portafolio | Algoritmos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="Navegacion principal">
+    <a href="index.html" class="navbar__brand">Portafolio<span>.</span></a>
+    <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="navbar__links" id="navLinks" role="list">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="algoritmos.html" class="active" aria-current="page">Algoritmos</a></li>
+      <li><a href="taller.html">Taller</a></li>
+      <li><a href="perfil.html">Perfil</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <p class="hero__subtitle">Trabajos del Ciclo</p>
+    <h1 class="hero__title">Algoritmos y <em>Estructura de Datos</em></h1>
+    <p class="hero__desc">Consulta los trabajos y entregables de algoritmos organizados por unidad.</p>
+  </header>
+
+  <main>
+    <section class="section" aria-label="Unidades de algoritmos">
+      <div class="section__header">
+        <span class="section__tag">Ciclo 2026</span>
+        <h2 class="section__title">Unidades Académicas</h2>
+        <p class="section__subtitle">Selecciona una unidad para ver sus trabajos.</p>
+      </div>
+      <div class="units-list" id="unitsList">
+        <div class="unit open" id="unidad-1">
+          <button class="unit__header" aria-expanded="true" aria-controls="body-u1">
+            <div class="unit__left"><span class="unit__dot">U1</span><div><p class="unit__title">Unidad 1</p><p class="unit__meta">Semanas 1 a 4</p></div></div>
+            <svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="unit__body" id="body-u1">
+            <div class="cards-grid">
+              <article class="card" id="u1-trabajo-01">
+                <span class="card__badge">Semana 1</span>
+                <div class="card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+                <h3 class="card__title">Estructuras Fundamentales</h3>
+                <time class="card__date" datetime="2026-09-14">14 de Setiembre, 2026</time>
+                <p class="card__desc">Aplicación de métodos.</p>
+                <div class="card__actions">
+                  <a href="pdfs/EJERCICIOS_APLICACIÓN_MÉTODOS.pdf" target="_blank" rel="noopener" class="btn btn--primary" id="ver-u1-01"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>Visualizar</a>
+                  <a href="pdfs/EJERCICIOS_APLICACIÓN_MÉTODOS.pdf" download class="btn btn--outline" id="desc-u1-01"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Descargar</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="unit" id="unidad-2"><button class="unit__header" aria-expanded="false" aria-controls="body-u2">
+            <div class="unit__left"><span class="unit__dot">U2</span><div><p class="unit__title">Unidad 2</p><p class="unit__meta">Semanas 5 a 8</p>
+            </div>
+        </div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="unit__body" id="body-u2"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>Aun no hay trabajos publicados en esta unidad.</p></div></div></div>
+        
+        <div class="unit" id="unidad-3"><button class="unit__header" aria-expanded="false" aria-controls="body-u3">
+            <div class="unit__left"><span class="unit__dot">U3</span><div><p class="unit__title">Unidad 3</p><p class="unit__meta">Semanas 9 a 12</p></div></div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="unit__body" id="body-u3"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>Aun no hay trabajos publicados en esta unidad.</p></div></div></div>
+        
+        <div class="unit" id="unidad-4"><button class="unit__header" aria-expanded="false" aria-controls="body-u4">
+            <div class="unit__left"><span class="unit__dot">U4</span><div><p class="unit__title">Unidad 4</p><p class="unit__meta">Semanas 13 a 16</p>
+            </div>
+        </div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="unit__body" id="body-u4"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>Aun no hay trabajos publicados en esta unidad.</p></div></div></div>    
+        
+        <div class="unit" id="unidad-integral"><button class="unit__header" aria-expanded="false" aria-controls="body-ui"><div class="unit__left"><span class="unit__dot">UI</span><div><p class="unit__title">Unidad Integral</p><p class="unit__meta">Trabajo integrador final</p></div></div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="unit__body" id="body-ui"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>El trabajo integrador se publicara al final del ciclo.</p></div></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo"><p>Portafolio Académico &mdash; <span>Ingeniería de Sistemas y Computación</span> &mdash; Universidad Peruana Los Andes</p></footer>
+  <script>
+    var toggle = document.getElementById('navToggle');
+    var links = document.getElementById('navLinks');
+    toggle.addEventListener('click', function () { var open = links.classList.toggle('open'); toggle.setAttribute('aria-expanded', String(open)); });
+    links.querySelectorAll('a').forEach(function (link) { link.addEventListener('click', function () { links.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }); });
+    document.querySelectorAll('.unit__header').forEach(function (btn) { btn.addEventListener('click', function () { var unit = btn.closest('.unit'); var isOpen = unit.classList.contains('open'); document.querySelectorAll('.unit').forEach(function (item) { item.classList.remove('open'); item.querySelector('.unit__header').setAttribute('aria-expanded', 'false'); }); if (!isOpen) { unit.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); } }); });
+    document.querySelector('#unidad-4 .unit__empty path').setAttribute('d', 'M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z');
+  </script>
+</body>
+</html>

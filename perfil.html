@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Perfil academico - Estudiante de Ingenieria de Sistemas y Computacion, UPLA." />
+  <title>Portafolio | Perfil</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  
+  <nav class="navbar" role="navigation" aria-label="Navegacion principal">
+    <a href="index.html" class="navbar__brand">Portafolio<span>.</span></a>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="navbar__links" id="navLinks" role="list">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="algoritmos.html">Algoritmos</a></li>
+      <li><a href="taller.html">Taller</a></li>
+      <li><a href="perfil.html" class="active" aria-current="page">Perfil</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENIDO -->
+  <main>
+    <div class="profile-wrapper" id="perfilMain">
+
+      <header class="profile-header">
+        
+        <div class="profile-avatar">
+          <img src="img/foto-perfil.jpeg" alt="Foto de perfil de Maricielo Sarai Cerrón Villar" />
+        </div>
+        <div class="profile-header__info">
+          <h1>Maricielo Sarai Cerrón Villar</h1>
+          <p>Estudiante universitaria &mdash; Sistemas y Computacion</p>
+        </div>
+      </header>
+
+      <section class="profile-section" aria-labelledby="sobre-mi-titulo">
+        <h2 id="sobre-mi-titulo">Sobre mi</h2>
+        <p>
+          Soy estudiante de Ingenieria de Sistemas y Computación con interes en el desarrollo de software y la gestion de proyectos de tecnologia.
+          Me gusta aprender, organizar mis trabajos con cuidado y aplicar lo que aprendo en clase a situaciones practicas.
+          Este portafolio reune los entregables y proyectos desarrollados durante mi formacion universitaria.
+        </p>
+      </section>
+
+      <section class="profile-section" aria-labelledby="info-academica-titulo">
+        <h2 id="info-academica-titulo">Información Académica</h2>
+        <ul class="info-list">
+          <li><strong>Universidad</strong> Universidad Peruana Los Andes</li>
+          <li><strong>Carrera</strong> Ingenieria de Sistemas y Computación</li>
+          <li><strong>Ciclo actual</strong> IV Ciclo</li>
+          <li><strong>Modalidad</strong> Presencial</li>
+          <li><strong>Ciudad</strong> Huancayo, Peru</li>
+        </ul>
+      </section>
+
+    
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <p>Portafolio Académico &mdash; <span>Ingeniería de Sistemas y Computación</span> &mdash; Universidad Peruana Los Andes</p>
+  </footer>
+
+  <script>
+    var toggle = document.getElementById('navToggle');
+    var links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    links.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        links.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+</body>
+</html>
