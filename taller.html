@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,10 +8,12 @@
   <title>Portafolio | Taller</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
   <nav class="navbar" role="navigation" aria-label="Navegacion principal">
     <a href="index.html" class="navbar__brand">Portafolio<span>.</span></a>
-    <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu"
+      aria-expanded="false"><span></span><span></span><span></span></button>
     <ul class="navbar__links" id="navLinks" role="list">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="algoritmos.html">Algoritmos</a></li>
@@ -27,12 +30,22 @@
 
   <main>
     <section class="section" aria-label="Unidades del taller">
-      <div class="section__header"><span class="section__tag">Ciclo 2026</span><h2 class="section__title">Unidades Académicas</h2><p class="section__subtitle">Selecciona una unidad para ver sus trabajos.</p></div>
+      <div class="section__header"><span class="section__tag">Ciclo 2026</span>
+        <h2 class="section__title">Unidades Académicas</h2>
+        <p class="section__subtitle">Selecciona una unidad para ver sus trabajos.</p>
+      </div>
       <div class="units-list" id="unitsList">
         <div class="unit open" id="unidad-1">
           <button class="unit__header" aria-expanded="true" aria-controls="body-u1">
-            <div class="unit__left"><span class="unit__dot">U1</span><div><p class="unit__title">Unidad 1</p><p class="unit__meta">Semanas 1 a 4</p></div></div>
-            <svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            <div class="unit__left"><span class="unit__dot">U1</span>
+              <div>
+                <p class="unit__title">Unidad 1</p>
+                <p class="unit__meta">Semanas 1 a 4</p>
+              </div>
+            </div>
+            <svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
           </button>
           <div class="unit__body" id="body-u1">
             <div class="cards-grid">
@@ -40,13 +53,31 @@
                 <button class="week-panel__header" type="button" aria-expanded="true" aria-controls="week-1-body">
                   <span class="card__badge">Semana 1</span>
                   <span class="week-panel__title">Enlaces de Figma</span>
-                  <svg class="week-panel__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                  <svg class="week-panel__chevron" viewBox="0 0 24 24" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
                 </button>
                 <div class="week-panel__body" id="week-1-body">
                   <p class="card__desc">Prototipos y enlaces de diseño para esta semana.</p>
                   <div class="file-list" aria-label="Enlaces de la semana 1">
-                    <div class="file-item"><div class="file-item__meta"><span class="file-item__icon">FIG</span><div><strong>Prototipo principal</strong><small>figma.com/prototipo-1</small></div></div><div class="file-item__actions"><a href="https://www.figma.com/" target="_blank" rel="noopener" class="file-item__view">Abrir</a><a href="https://www.figma.com/" target="_blank" rel="noopener" class="file-item__download">Visitar</a></div></div>
-                    <div class="file-item"><div class="file-item__meta"><span class="file-item__icon">FIG</span><div><strong>Wireframe</strong><small>figma.com/wireframe</small></div></div><div class="file-item__actions"><a href="https://www.figma.com/design/F7UZyD9I97joeFoHH3iMfp/DISE%C3%91OS-DE-APPS?node-id=0-1&t=IGvYW2PC2g2BQLxy-1" target="_blank" rel="noopener" class="file-item__view">Abrir</a><a href="https://www.figma.com/" target="_blank" rel="noopener" class="file-item__download">Visitar</a></div></div>
+                    <div class="file-item">
+                      <div class="file-item__meta"><span class="file-item__icon">FIG</span>
+                        <div><strong>Prototipo principal</strong><small>figma.com/prototipo-1</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://www.figma.com/" target="_blank" rel="noopener"
+                          class="file-item__view">Abrir</a><a href="https://www.figma.com/" target="_blank"
+                          rel="noopener" class="file-item__download">Visitar</a></div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta"><span class="file-item__icon">FIG</span>
+                        <div><strong>Wireframe</strong><small>figma.com/wireframe</small></div>
+                      </div>
+                      <div class="file-item__actions"><a
+                          href="https://www.figma.com/design/F7UZyD9I97joeFoHH3iMfp/DISE%C3%91OS-DE-APPS?node-id=0-1&t=IGvYW2PC2g2BQLxy-1"
+                          target="_blank" rel="noopener" class="file-item__view">Abrir</a><a
+                          href="https://www.figma.com/" target="_blank" rel="noopener"
+                          class="file-item__download">Visitar</a></div>
+                    </div>
                   </div>
                 </div>
               </article>
@@ -54,13 +85,32 @@
               <article class="card card--files week-panel is-open" id="u1-semana-2">
                 <button class="week-panel__header" type="button" aria-expanded="true" aria-controls="week-2-body">
                   <span class="card__badge">Semana 2</span>
-                  <span class="week-panel__title">Documento</span>
-                  <svg class="week-panel__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                  <span class="week-panel__title">Documento y Release</span>
+                  <svg class="week-panel__chevron" viewBox="0 0 24 24" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
                 </button>
                 <div class="week-panel__body" id="week-2-body">
-                  <p class="card__desc">Documento entregado para esta semana.</p>
-                  <div class="file-list" aria-label="Documento de la semana 2">
-                    <div class="file-item"><div class="file-item__meta"><span class="file-item__icon">PDF</span><div><strong>Documento final</strong><small>DEFINICIONES DE MAVEN Y POM.docx</small></div></div><div class="file-item__actions"><a href="pdfs/DEFINICIONES DE MAVEN Y POM.docx" target="_blank" rel="noopener" class="file-item__view">Ver</a><a href="pdfs/DEFINICIONES DE MAVEN Y POM.docx" download="DEFINICIONES DE MAVEN Y POM.docx" class="file-item__download">Descargar</a></div></div>
+                  <p class="card__desc">Documento y release del proyecto para esta semana.</p>
+                  <div class="file-list" aria-label="Entregables de la semana 2">
+                    <div class="file-item">
+                      <div class="file-item__meta"><span class="file-item__icon">PDF</span>
+                        <div><strong>Documento final</strong><small>DEFINICIONES DE MAVEN Y POM.docx</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="pdfs/DEFINICIONES DE MAVEN Y POM.docx" target="_blank"
+                          rel="noopener" class="file-item__view">Ver</a><a href="pdfs/DEFINICIONES DE MAVEN Y POM.docx"
+                          download="DEFINICIONES DE MAVEN Y POM.docx" class="file-item__download">Descargar</a></div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta"><span class="file-item__icon">RAR</span>
+                        <div><strong>Actividad 02 (Release)</strong><small>Actividad02.rar · GitHub</small></div>
+                      </div>
+                      <div class="file-item__actions"><a
+                          href="https://github.com/sacijim/portafolio/releases/tag/TALLER-APPS" target="_blank"
+                          rel="noopener" class="file-item__view">Ver en GitHub</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/TALLER-APPS/Actividad02.rar"
+                          class="file-item__download">Descargar</a></div>
+                    </div>
                   </div>
                 </div>
               </article>
@@ -69,29 +119,96 @@
         </div>
 
         <div class="unit" id="unidad-2">
-          <button class="unit__header" aria-expanded="false" aria-controls="body-u2"><div class="unit__left"><span class="unit__dot">U2</span><div><p class="unit__title">Unidad 2</p><p class="unit__meta">Semanas 5 a 8</p></div></div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="unit__body" id="body-u2"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>Aun no hay trabajos publicados en esta unidad.</p></div></div>
+          <button class="unit__header" aria-expanded="false" aria-controls="body-u2">
+            <div class="unit__left"><span class="unit__dot">U2</span>
+              <div>
+                <p class="unit__title">Unidad 2</p>
+                <p class="unit__meta">Semanas 5 a 8</p>
+              </div>
+            </div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="unit__body" id="body-u2">
+            <div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+              </svg>
+              <p>Aun no hay trabajos publicados en esta unidad.</p>
+            </div>
+          </div>
         </div>
 
         <div class="unit" id="unidad-3">
-          <button class="unit__header" aria-expanded="false" aria-controls="body-u3"><div class="unit__left"><span class="unit__dot">U3</span><div><p class="unit__title">Unidad 3</p><p class="unit__meta">Semanas 9 a 12</p></div></div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="unit__body" id="body-u3"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>Aun no hay trabajos publicados en esta unidad.</p></div></div>
+          <button class="unit__header" aria-expanded="false" aria-controls="body-u3">
+            <div class="unit__left"><span class="unit__dot">U3</span>
+              <div>
+                <p class="unit__title">Unidad 3</p>
+                <p class="unit__meta">Semanas 9 a 12</p>
+              </div>
+            </div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="unit__body" id="body-u3">
+            <div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+              </svg>
+              <p>Aun no hay trabajos publicados en esta unidad.</p>
+            </div>
+          </div>
         </div>
 
         <div class="unit" id="unidad-4">
-          <button class="unit__header" aria-expanded="false" aria-controls="body-u4"><div class="unit__left"><span class="unit__dot">U4</span><div><p class="unit__title">Unidad 4</p><p class="unit__meta">Semanas 13 a 16</p></div></div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="unit__body" id="body-u4"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>Aun no hay trabajos publicados en esta unidad.</p></div></div>
+          <button class="unit__header" aria-expanded="false" aria-controls="body-u4">
+            <div class="unit__left"><span class="unit__dot">U4</span>
+              <div>
+                <p class="unit__title">Unidad 4</p>
+                <p class="unit__meta">Semanas 13 a 16</p>
+              </div>
+            </div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="unit__body" id="body-u4">
+            <div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+              </svg>
+              <p>Aun no hay trabajos publicados en esta unidad.</p>
+            </div>
+          </div>
         </div>
 
         <div class="unit" id="unidad-integral">
-          <button class="unit__header" aria-expanded="false" aria-controls="body-ui"><div class="unit__left"><span class="unit__dot">UI</span><div><p class="unit__title">Unidad Integral</p><p class="unit__meta">Trabajo integrador final</p></div></div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="unit__body" id="body-ui"><div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><p>El trabajo integrador se publicara al final del ciclo.</p></div></div>
+          <button class="unit__header" aria-expanded="false" aria-controls="body-ui">
+            <div class="unit__left"><span class="unit__dot">UI</span>
+              <div>
+                <p class="unit__title">Unidad Integral</p>
+                <p class="unit__meta">Trabajo integrador final</p>
+              </div>
+            </div><svg class="unit__chevron" viewBox="0 0 24 24" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="unit__body" id="body-ui">
+            <div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+              </svg>
+              <p>El trabajo integrador se publicara al final del ciclo.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer" role="contentinfo"><p>Portafolio Académico &mdash; <span>Ingeniería de Sistemas y Computación</span> &mdash; Universidad Peruana Los Andes</p></footer>
+  <footer class="footer" role="contentinfo">
+    <p>Portafolio Académico &mdash; <span>Ingeniería de Sistemas y Computación</span> &mdash; Universidad Peruana Los
+      Andes</p>
+  </footer>
   <script>
     var toggle = document.getElementById('navToggle');
     var links = document.getElementById('navLinks');
@@ -125,4 +242,5 @@
     document.querySelector('#unidad-4 .unit__empty path').setAttribute('d', 'M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z');
   </script>
 </body>
+
 </html>
