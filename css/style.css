@@ -608,6 +608,65 @@ a { color: inherit; text-decoration: none; }
   display: none;
 }
 
+.exercise-list {
+  display: grid;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.exercise-group {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.55);
+}
+
+.exercise-group__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.exercise-group__header::-webkit-details-marker {
+  display: none;
+}
+
+.exercise-group__title {
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.exercise-group__count {
+  margin-left: auto;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+}
+
+.exercise-group__chevron {
+  width: 18px;
+  height: 18px;
+  stroke: var(--color-text-muted);
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform var(--transition);
+  flex-shrink: 0;
+}
+
+.exercise-group[open] .exercise-group__chevron {
+  transform: rotate(180deg);
+}
+
+.exercise-group > .file-list {
+  padding: 0.85rem;
+  border-top: 1px solid var(--color-border);
+}
+
 .card--files .card__desc {
   flex: none;
 }
