@@ -6,12 +6,13 @@
   <meta name="description" content="Portafolio academico - Ingenieria de Sistemas y Computacion, Universidad Peruana Los Andes." />
   <title>Portafolio | Inicio</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="js/star-rain.js" defer></script>
 </head>
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar" role="navigation" aria-label="Navegacion principal">
-    <a href="index.html" class="navbar__brand">Portafolio<span>.</span></a>
+    <a href="index.html" class="navbar__brand">&gt;_ maricielo-cerron<span></span></a>
 
     <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -37,23 +38,37 @@
   </div>
 
   <!-- HERO -->
-  <header class="hero">
-    <p class="hero__subtitle">Portafolio Académico &mdash; 2026</p>
-    <h1 class="hero__title">Bienvenidos a mi <em>portafolio</em></h1>
-    <p class="hero__desc">Aqui encontraras todos mis trabajos y entregables organizados por unidad a lo largo del ciclo académico 2026.</p>
-
-    <div class="home-profile" aria-label="Perfil breve">
-      <div class="profile-avatar home-profile__avatar">
-        <img src="img/foto-perfil.jpeg" alt="Foto de perfil de Maricielo Sarai Cerrón Villar" />
+  <header class="hero hero--home">
+    <div class="hero__layout">
+      <div class="hero__content">
+        <p class="hero__subtitle">// Hola, mundo!</p>
+        <h1 class="hero__title">Hi, I'm<strong>Maricielo Cerrón<span class="hero__cursor" aria-hidden="true">|</span></strong></h1>
+        <h2 class="hero__role">&gt; Estudiante de Ingeniería de Sistemas y Computación</h2>
+        <p class="hero__desc">Apasionada por la tecnología, el desarrollo web y la creación de soluciones que hacen la vida más fácil. <span class="hero__desc-mark">&gt;{</span></p>
+        <div class="hero__actions">
+          <a class="hero__button hero__button--primary" href="#accesos">&gt; Ver trabajos</a>
+          <a class="hero__button hero__button--secondary" href="perfil.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0 1 14 0"/></svg>
+            Ver mi perfil
+          </a>
+        </div>
       </div>
-      <div class="home-profile__info">
-        <span class="section__tag">Perfil</span>
-        <h2>Maricielo Sarai Cerrón Villar</h2>
+      <div class="hero__visual">
+        <div class="hero__portrait">
+          <img src="img/foto-perfil.jpeg" alt="Retrato de Maricielo Sarai Cerrón Villar" />
+        </div>
+        <span class="hero__visual-label">UPLA // SYS-ENG</span>
       </div>
     </div>
+    <div class="hero__bottom">
+      <a class="scroll-cue" href="#accesos">
+        <svg viewBox="0 0 20 28" aria-hidden="true"><rect x="3" y="1" width="14" height="25" rx="7"/><path d="M10 6v5"/></svg>
+        <span><strong>SCROLL</strong>para conocer más</span>
+      </a>
+    </div>
+  </header>
 
-    <!-- Accesos rapidos -->
-    <div class="hero-cards" role="list">
+  <nav class="hero-cards hero-cards--home" id="accesos" aria-label="Accesos rápidos" role="list">
       <a href="algoritmos.html" class="hero-card" role="listitem" id="acceso-algoritmos">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <polyline points="8 6 4 12 8 18"/>
@@ -80,8 +95,7 @@
         <p class="hero-card__label">Perfil</p>
         <p class="hero-card__sub">Sobre mi</p>
       </a>
-    </div>
-  </header>
+  </nav>
 
   <!-- INFO STRIP -->
   <div class="info-strip" role="region" aria-label="Resumen del portafolio">
