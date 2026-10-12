@@ -280,8 +280,8 @@
         <p class="section__subtitle">Selecciona una unidad para ver sus trabajos.</p>
       </div>
       <div class="units-list" id="unitsList">
-        <div class="unit open" id="unidad-1">
-          <button class="unit__header" aria-expanded="true" aria-controls="body-u1">
+        <div class="unit" id="unidad-1">
+          <button class="unit__header" aria-expanded="false" aria-controls="body-u1">
             <div class="unit__left"><span class="unit__dot">U1</span>
               <div>
                 <p class="unit__title">Unidad 1: CONCEPTOS DE ALGORITMOS Y ESTRUCTURAS DE DATOS</p>
@@ -1124,8 +1124,8 @@
           </div>
         </div>
 
-        <div class="unit" id="unidad-2">
-          <button class="unit__header" aria-expanded="false" aria-controls="body-u2">
+        <div class="unit open" id="unidad-2">
+          <button class="unit__header" aria-expanded="true" aria-controls="body-u2">
             <div class="unit__left"><span class="unit__dot">U2</span>
               <div>
                 <p class="unit__title">Unidad 2: PILAS, COLAS Y RECURSIVIDAD</p>
@@ -1137,11 +1137,353 @@
             </svg>
           </button>
           <div class="unit__body" id="body-u2">
-            <div class="unit__empty"><svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                <polyline points="14 2 14 8 20 8" />
-              </svg>
-              <p>Aun no hay trabajos publicados en esta unidad.</p>
+            <div class="cards-grid">
+              <article class="card card--files week-panel is-open" id="u2-semana-5">
+                <button class="week-panel__header" type="button" aria-expanded="true" aria-controls="week-5-body">
+                  <span class="card__badge">Semana 5</span>
+                  <span class="week-panel__title">Tema: ArrayList</span>
+                  <svg class="week-panel__chevron" viewBox="0 0 24 24" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </button>
+                <div class="week-panel__body" id="week-5-body">
+                  <p class="card__desc">Entregas de la semana.</p>
+                  <div class="exercise-list" aria-label="Ejercicios de la semana 5">
+                    <details class="exercise-group">
+                      <summary class="exercise-group__header">
+                        <span class="exercise-group__title">Ejercicio 01</span>
+                        <span class="exercise-group__count">10 imágenes</span>
+                        <svg class="exercise-group__chevron" viewBox="0 0 24 24" aria-hidden="true">
+                          <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                      </summary>
+                      <div class="file-list" aria-label="Imágenes del ejercicio 1">
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M1.png" alt="Ejercicio 01, imagen M1" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 1</strong><small>buscarPorNombre()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M1.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M1.png" data-title="Semana 5 · Ejercicio 01 · M1">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M1.png" download="01-M1.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M2.png" alt="Ejercicio 01, imagen M2" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 2</strong><small>listarPorCarrera()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M2.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M2.png" data-title="Semana 5 · Ejercicio 01 · M2">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M2.png" download="01-M2.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M3.png" alt="Ejercicio 01, imagen M3" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 3</strong><small>ordenarPorApellidos()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M3.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M3.png" data-title="Semana 5 · Ejercicio 01 · M3">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M3.png" download="01-M3.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M4.png" alt="Ejercicio 01, imagen M4" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 4</strong><small>ordenarPorEdad()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M4.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M4.png" data-title="Semana 5 · Ejercicio 01 · M4">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M4.png" download="01-M4.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M5.png" alt="Ejercicio 01, imagen M5" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 5</strong><small>invertirLista()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M5.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M5.png" data-title="Semana 5 · Ejercicio 01 · M5">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M5.png" download="01-M5.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M6.png" alt="Ejercicio 01, imagen M6" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 6</strong><small>obtenerPrimero()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M6.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M6.png" data-title="Semana 5 · Ejercicio 01 · M6">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M6.png" download="01-M6.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M7.png" alt="Ejercicio 01, imagen M7" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 7</strong><small>obtenerUltimo()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M7.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M7.png" data-title="Semana 5 · Ejercicio 01 · M7">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M7.png" download="01-M7.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M8.png" alt="Ejercicio 01, imagen M8" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 8</strong><small>eliminarPorCarrera()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M8.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M8.png" data-title="Semana 5 · Ejercicio 01 · M8">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M8.png" download="01-M8.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M9.png" alt="Ejercicio 01, imagen M9" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 9</strong><small>contarPorCarrera()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M9.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M9.png" data-title="Semana 5 · Ejercicio 01 · M9">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M9.png" download="01-M9.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M10.png" alt="Ejercicio 01, imagen M10" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 10</strong><small>mostrarRango()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M10.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M10.png" data-title="Semana 5 · Ejercicio 01 · M10">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/01-M10.png" download="01-M10.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                      </div>
+                    </details>
+                    <details class="exercise-group">
+                      <summary class="exercise-group__header">
+                        <span class="exercise-group__title">Ejercicio 02</span>
+                        <span class="exercise-group__count">21 imágenes</span>
+                        <svg class="exercise-group__chevron" viewBox="0 0 24 24" aria-hidden="true">
+                          <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                      </summary>
+                      <div class="file-list" aria-label="Imágenes del ejercicio 2">
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M1.png" alt="Ejercicio 02, imagen M1" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 1</strong><small>registrarEstudiante()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M1.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M1.png" data-title="Semana 5 · Ejercicio 02 · M1">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M1.png" download="02-M1.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M2.png" alt="Ejercicio 02, imagen M2" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 2</strong><small>listarEstudiantes()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M2.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M2.png" data-title="Semana 5 · Ejercicio 02 · M2">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M2.png" download="02-M2.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M3.png" alt="Ejercicio 02, imagen M3" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 3</strong><small>buscarEstudiante()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M3.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M3.png" data-title="Semana 5 · Ejercicio 02 · M3">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M3.png" download="02-M3.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M4.png" alt="Ejercicio 02, imagen M4" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 4</strong><small>modificarEstudiante()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M4.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M4.png" data-title="Semana 5 · Ejercicio 02 · M4">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M4.png" download="02-M4.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M5.png" alt="Ejercicio 02, imagen M5" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 5</strong><small>eliminarEstudiante()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M5.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M5.png" data-title="Semana 5 · Ejercicio 02 · M5">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M5.png" download="02-M5.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M6.png" alt="Ejercicio 02, imagen M6" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 6</strong><small>registrarCurso()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M6.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M6.png" data-title="Semana 5 · Ejercicio 02 · M6">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M6.png" download="02-M6.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M7.png" alt="Ejercicio 02, imagen M7" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 7</strong><small>listarCursos()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M7.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M7.png" data-title="Semana 5 · Ejercicio 02 · M7">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M7.png" download="02-M7.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M8.png" alt="Ejercicio 02, imagen M8" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 8</strong><small>buscarCurso()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M8.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M8.png" data-title="Semana 5 · Ejercicio 02 · M8">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M8.png" download="02-M8.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M9.png" alt="Ejercicio 02, imagen M9" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 9</strong><small>modificarCurso()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M9.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M9.png" data-title="Semana 5 · Ejercicio 02 · M9">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M9.png" download="02-M9.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M10.png" alt="Ejercicio 02, imagen M10" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 10</strong><small>eliminarCurso()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M10.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M10.png" data-title="Semana 5 · Ejercicio 02 · M10">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M10.png" download="02-M10.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M11.png" alt="Ejercicio 02, imagen M11" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 11</strong><small>registrarMatricula()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M11.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M11.png" data-title="Semana 5 · Ejercicio 02 · M11">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M11.png" download="02-M11.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M12.png" alt="Ejercicio 02, imagen M12" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 12</strong><small>listarMatriculas()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M12.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M12.png" data-title="Semana 5 · Ejercicio 02 · M12">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M12.png" download="02-M12.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M13.png" alt="Ejercicio 02, imagen M13" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 13</strong><small>consultarCursosEstudiante()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M13.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M13.png" data-title="Semana 5 · Ejercicio 02 · M13">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M13.png" download="02-M13.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M14.png" alt="Ejercicio 02, imagen M14" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 14</strong><small>modificarNota()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M14.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M14.png" data-title="Semana 5 · Ejercicio 02 · M14">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M14.png" download="02-M14.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M15.png" alt="Ejercicio 02, imagen M15" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 15</strong><small>eliminarMatricula()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M15.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M15.png" data-title="Semana 5 · Ejercicio 02 · M15">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M15.png" download="02-M15.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M16.png" alt="Ejercicio 02, imagen M16" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 16</strong><small>promedioEstudiante()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M16.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M16.png" data-title="Semana 5 · Ejercicio 02 · M16">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M16.png" download="02-M16.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M17.png" alt="Ejercicio 02, imagen M17" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 17</strong><small>rankingAcademico()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M17.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M17.png" data-title="Semana 5 · Ejercicio 02 · M17">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M17.png" download="02-M17.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M18.png" alt="Ejercicio 02, imagen M18" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 18</strong><small>estudiantesPorCarrera()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M18.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M18.png" data-title="Semana 5 · Ejercicio 02 · M18">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M18.png" download="02-M18.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M19.png" alt="Ejercicio 02, imagen M19" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 19</strong><small>estudiantesDesaprobados()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M19.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M19.png" data-title="Semana 5 · Ejercicio 02 · M19">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M19.png" download="02-M19.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M20.png" alt="Ejercicio 02, imagen M20" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 20</strong><small>mejorPromedio()</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M20.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M20.png" data-title="Semana 5 · Ejercicio 02 · M20">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M20.png" download="02-M20.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                    <div class="file-item">
+                      <div class="file-item__meta">
+                        <img class="file-item__thumb" src="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M21.png" alt="Ejercicio 02, imagen M21" loading="lazy" />
+                        <div class="file-item__body"><strong>Método 21</strong><small>menu() · [21] Salir</small></div>
+                      </div>
+                      <div class="file-item__actions"><a href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M21.png" class="file-item__view"
+                          data-full="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M21.png" data-title="Semana 5 · Ejercicio 02 · M21">Visualizar</a><a
+                          href="https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/02-M21.png" download="02-M21.png" class="file-item__download">Descargar</a>
+                      </div>
+                    </div>
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
         </div>
