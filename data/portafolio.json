@@ -24,8 +24,8 @@
       "explicacion": "Un wireframe es el esquema estructural de baja o media fidelidad de una interfaz de usuario. En la Semana 1 de Taller se diseñaron en Figma las pantallas, jerarquía visual, navegación y flujo interactivo de la aplicación antes de su codificación."
     },
     "tekora_proyecto": {
-      "titulo": "Proyecto Tekora (Semanas 4 y 5 - Taller)",
-      "explicacion": "Tekora es un proyecto integral de desarrollo de aplicaciones que incluye diseño UI/UX en Figma (Diseño_Tekora_Figma), paquete con el código fuente web (ProyectoWeb_Tekora.rar), manuales de Microsoft Azure y SQL Server 2025, y diseño de base de datos con diagrama conceptual y diagrama lógico-relacional."
+      "titulo": "Proyecto Tekora (Semanas 4 a 8 - Taller)",
+      "explicacion": "Tekora es un proyecto integral de desarrollo de aplicaciones que comprende: prototipo interactivo en Figma (Semana 4), manuales de Azure y SQL Server 2025 con diagramas conceptual y lógico (Semana 5), implementación del modelo físico en SQL Server (Semana 6), módulo de login autenticado con SQL Server e informe (Semana 7), y entrega consolidada del proyecto web con informe técnico final (Semana 8)."
     },
     "complejidades": {
       "arreglo_unidimensional": "Acceso por índice O(1); búsqueda lineal, inserción y eliminación con desplazamiento de elementos O(n).",
@@ -809,7 +809,7 @@
               "descripcion": "Manuales técnicos en PDF para Azure y SQL Server 2025, junto con el modelado conceptual y lógico-relacional de la base de datos de Tekora.",
               "resumenChatbot": "Semana 5 de Taller: Manuales en PDF de Creación de cuenta en Microsoft Azure y de Instalación de SQL Server 2025, además de los diagramas conceptual y lógico-relacional de la base de datos de Tekora.",
               "explicacionTecnica": "Contiene la documentación técnica en PDF para el aprovisionamiento de recursos en Microsoft Azure y el despliegue de SQL Server 2025, complementado con el modelado de base de datos en Draw.io: diagrama conceptual (entidades, relaciones y cardinalidad) y diagrama lógico-relacional (tablas, claves primarias, foráneas e integridad referencial).",
-              "abierta": true,
+              "abierta": false,
               "baseUrl": "img/",
               "archivos": [
                 {
@@ -856,6 +856,92 @@
                       "explicacion": "Esquema relacional con definición de tablas, llaves primarias, foráneas, tipos y normalización."
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "id": "u2-semana-6",
+              "numero": 6,
+              "badge": "Semana 6",
+              "titulo": "Modelo Físico de SQL Server",
+              "tema": "Implementación del Modelo Físico en SQL Server (Tekora)",
+              "descripcion": "Archivo ZIP con los scripts DDL y el modelo físico implementado en Microsoft SQL Server.",
+              "resumenChatbot": "Semana 6 de Taller: Implementación del modelo físico de la base de datos en SQL Server para Tekora en el archivo 03_modelo_fisico_sqlserver.zip alojado en GitHub Releases.",
+              "explicacionTecnica": "Contiene los scripts de creación de base de datos, tablas, tipos de datos, restricciones de integridad (PKs, FKs) y esquemas físicos desarrollados en Microsoft SQL Server para Tekora.",
+              "abierta": false,
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Modelo Físico SQL Server",
+                  "subtitulo": "03_modelo_fisico_sqlserver.zip · GitHub Release",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/ModeloFisico_sqlserver",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/ModeloFisico_sqlserver/03_modelo_fisico_sqlserver.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ]
+            },
+            {
+              "id": "u2-semana-7",
+              "numero": 7,
+              "badge": "Semana 7",
+              "titulo": "Login Conectado a Base de Datos",
+              "tema": "Módulo de Autenticación y Conexión Backend a SQL Server",
+              "descripcion": "Paquete descargable del módulo de login conectado a SQL Server junto con su informe técnico en formato Word.",
+              "resumenChatbot": "Semana 7 de Taller: Módulo de autenticación Login conectado a SQL Server (LOGIN_CONECTADO.zip en GitHub Releases) junto con el informe técnico Informe_Conexion_Login_SQL_TEKORA.docx.",
+              "explicacionTecnica": "Implementa la autenticación de usuarios conectando la aplicación con la base de datos SQL Server, validando credenciales y gestionando la sesión, documentado en el informe técnico de conexión.",
+              "abierta": false,
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Login Conectado a SQL Server",
+                  "subtitulo": "LOGIN_CONECTADO.zip · GitHub Release",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/Login_conectadosql",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/Login_conectadosql/LOGIN_CONECTADO.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "DOCX",
+                  "titulo": "Informe Conexión Login SQL",
+                  "subtitulo": "Informe_Conexion_Login_SQL_TEKORA.docx · Word",
+                  "verUrl": "pdfs/Informe_Conexion_Login_SQL_TEKORA.docx",
+                  "verTexto": "Ver Documento",
+                  "descargarUrl": "pdfs/Informe_Conexion_Login_SQL_TEKORA.docx",
+                  "descargarNombre": "Informe_Conexion_Login_SQL_TEKORA.docx",
+                  "descargarTexto": "Descargar"
+                }
+              ]
+            },
+            {
+              "id": "u2-semana-8",
+              "numero": 8,
+              "badge": "Semana 8",
+              "titulo": "Proyecto Web Tekora e Informe Final",
+              "tema": "Entrega Consolidada del Proyecto Web Tekora y Documentación Técnica",
+              "descripcion": "Entrega del código fuente del proyecto web Tekora (ProyectoWeb_Tekora.rar) junto con el informe técnico completo.",
+              "resumenChatbot": "Semana 8 de Taller: Entrega consolidada del proyecto web Tekora (código fuente ProyectoWeb_Tekora.rar en GitHub Releases) e informe técnico completo Informe_Proyecto_Web_TEKORA.docx.",
+              "explicacionTecnica": "Consolidado de la aplicación web Tekora con arquitectura completa de desarrollo frontend/backend, persistencia en base de datos e informe técnico exhaustivo con documentación de requisitos, diseño e implementación.",
+              "abierta": true,
+              "archivos": [
+                {
+                  "icono": "RAR",
+                  "titulo": "Proyecto Web Tekora (Código Fuente)",
+                  "subtitulo": "ProyectoWeb_Tekora.rar · GitHub Release",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/PROYECTO_TEKORA",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/PROYECTO_TEKORA/ProyectoWeb_Tekora.rar",
+                  "descargarTexto": "Descargar .rar"
+                },
+                {
+                  "icono": "DOCX",
+                  "titulo": "Informe Proyecto Web Tekora",
+                  "subtitulo": "Informe_Proyecto_Web_TEKORA.docx · Word",
+                  "verUrl": "pdfs/Informe_Proyecto_Web_TEKORA.docx",
+                  "verTexto": "Ver Documento",
+                  "descargarUrl": "pdfs/Informe_Proyecto_Web_TEKORA.docx",
+                  "descargarNombre": "Informe_Proyecto_Web_TEKORA.docx",
+                  "descargarTexto": "Descargar"
                 }
               ]
             }

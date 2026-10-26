@@ -415,9 +415,12 @@
       else if (/\b(arbolexpedientes|expediente|inorden|abb|altura)\b/.test(q)) ejNum = 3;
     }
 
-    const isTaller = /\b(taller|figma|prototipo|maven|pom|tekora|azure|sql|diagrama)\b/.test(q);
+    const isTaller = /\b(taller|figma|prototipo|maven|pom|tekora|azure|sql|diagrama|modelo\s*fisico|login|autenticacion)\b/.test(q);
     if (isTaller && weekNum === null) {
-      if (/\b(azure|sql|diagrama|conceptual|relacional)\b/.test(q)) weekNum = 5;
+      if (/\b(informe.*web|informe.*tekora|proyecto.*web)\b/.test(q)) weekNum = 8;
+      else if (/\b(login|autenticacion|conexion)\b/.test(q)) weekNum = 7;
+      else if (/\b(modelo\s*fisico)\b/.test(q)) weekNum = 6;
+      else if (/\b(azure|manual.*sql|diagrama|conceptual|relacional)\b/.test(q)) weekNum = 5;
       else if (/\b(tekora)\b/.test(q)) weekNum = 4;
       else if (/\b(maven|pom)\b/.test(q)) weekNum = 2;
       else if (/\b(figma|prototipo)\b/.test(q)) weekNum = 1;
