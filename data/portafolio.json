@@ -61,15 +61,69 @@
               "abierta": false,
               "baseUrl": "img/",
               "items": [
-                { "archivo": "semana1-1.png", "titulo": "Ejercicio 01", "subtitulo": "Eliminar un elemento", "lightboxTitle": "Semana 1 · Ejercicio 01", "explicacion": "Busca o recibe la posición a eliminar y desplaza los elementos posteriores una casilla a la izquierda, reduciendo el contador lógico en 1." },
-                { "archivo": "semana1-2.png", "titulo": "Ejercicio 02", "subtitulo": "Modificar un elemento", "lightboxTitle": "Semana 1 · Ejercicio 02", "explicacion": "Accede directamente en O(1) al índice indicado del vector y reemplaza su valor previa validación de rango." },
-                { "archivo": "semana1-3.png", "titulo": "Ejercicio 03", "subtitulo": "Insertar un elemento", "lightboxTitle": "Semana 1 · Ejercicio 03", "explicacion": "Verifica que haya espacio disponible en el arreglo, desplaza los elementos a la derecha si es inserción en posición y asigna el nuevo valor." },
-                { "archivo": "semana1-4.png", "titulo": "Ejercicio 04", "subtitulo": "Sumar los elementos", "lightboxTitle": "Semana 1 · Ejercicio 04", "explicacion": "Recorre el arreglo con un bucle for acumulando cada valor en una variable suma total en tiempo O(n)." },
-                { "archivo": "semana1-5.png", "titulo": "Ejercicio 05", "subtitulo": "Hallar número menor, mayor y promedio", "lightboxTitle": "Semana 1 · Ejercicio 05", "explicacion": "Inicializa menor y mayor con el primer elemento v[0], compara en un solo recorrido lineal y divide la suma acumulada entre la cantidad de elementos." },
-                { "archivo": "semana1-6.png", "titulo": "Ejercicio 06", "subtitulo": "Suma de impares", "lightboxTitle": "Semana 1 · Ejercicio 06", "explicacion": "Evalúa cada elemento con el operador módulo (v[i] % 2 != 0) y suma únicamente los valores impares." },
-                { "archivo": "semana1-7.png", "titulo": "Ejercicio 07", "subtitulo": "Mover primer elemento", "lightboxTitle": "Semana 1 · Ejercicio 07", "explicacion": "Guarda v[0] en una variable temporal, desplaza todos los elementos una posición hacia la izquierda y coloca el temporal al final del arreglo." },
-                { "archivo": "semana1-8.png", "titulo": "Ejercicio 08", "subtitulo": "Mover primer elemento par", "lightboxTitle": "Semana 1 · Ejercicio 08", "explicacion": "Localiza el primer número par (v[i] % 2 == 0) en el vector y lo traslada al final desplazando el subarreglo restante." },
-                { "archivo": "semana1-9.png", "titulo": "Actividad 02", "subtitulo": "Entrega visual", "lightboxTitle": "Semana 1 · Actividad 02", "explicacion": "Consolidado práctico de operaciones sobre arreglos unidimensionales." }
+                {
+                  "archivo": "semana1-1.png",
+                  "titulo": "Ejercicio 01",
+                  "subtitulo": "Eliminar un elemento",
+                  "lightboxTitle": "Semana 1 · Ejercicio 01",
+                  "explicacion": "Busca o recibe la posición a eliminar y desplaza los elementos posteriores una casilla a la izquierda, reduciendo el contador lógico en 1."
+                },
+                {
+                  "archivo": "semana1-2.png",
+                  "titulo": "Ejercicio 02",
+                  "subtitulo": "Modificar un elemento",
+                  "lightboxTitle": "Semana 1 · Ejercicio 02",
+                  "explicacion": "Accede directamente en O(1) al índice indicado del vector y reemplaza su valor previa validación de rango."
+                },
+                {
+                  "archivo": "semana1-3.png",
+                  "titulo": "Ejercicio 03",
+                  "subtitulo": "Insertar un elemento",
+                  "lightboxTitle": "Semana 1 · Ejercicio 03",
+                  "explicacion": "Verifica que haya espacio disponible en el arreglo, desplaza los elementos a la derecha si es inserción en posición y asigna el nuevo valor."
+                },
+                {
+                  "archivo": "semana1-4.png",
+                  "titulo": "Ejercicio 04",
+                  "subtitulo": "Sumar los elementos",
+                  "lightboxTitle": "Semana 1 · Ejercicio 04",
+                  "explicacion": "Recorre el arreglo con un bucle for acumulando cada valor en una variable suma total en tiempo O(n)."
+                },
+                {
+                  "archivo": "semana1-5.png",
+                  "titulo": "Ejercicio 05",
+                  "subtitulo": "Hallar número menor, mayor y promedio",
+                  "lightboxTitle": "Semana 1 · Ejercicio 05",
+                  "explicacion": "Inicializa menor y mayor con el primer elemento v[0], compara en un solo recorrido lineal y divide la suma acumulada entre la cantidad de elementos."
+                },
+                {
+                  "archivo": "semana1-6.png",
+                  "titulo": "Ejercicio 06",
+                  "subtitulo": "Suma de impares",
+                  "lightboxTitle": "Semana 1 · Ejercicio 06",
+                  "explicacion": "Evalúa cada elemento con el operador módulo (v[i] % 2 != 0) y suma únicamente los valores impares."
+                },
+                {
+                  "archivo": "semana1-7.png",
+                  "titulo": "Ejercicio 07",
+                  "subtitulo": "Mover primer elemento",
+                  "lightboxTitle": "Semana 1 · Ejercicio 07",
+                  "explicacion": "Guarda v[0] en una variable temporal, desplaza todos los elementos una posición hacia la izquierda y coloca el temporal al final del arreglo."
+                },
+                {
+                  "archivo": "semana1-8.png",
+                  "titulo": "Ejercicio 08",
+                  "subtitulo": "Mover primer elemento par",
+                  "lightboxTitle": "Semana 1 · Ejercicio 08",
+                  "explicacion": "Localiza el primer número par (v[i] % 2 == 0) en el vector y lo traslada al final desplazando el subarreglo restante."
+                },
+                {
+                  "archivo": "semana1-9.png",
+                  "titulo": "Actividad 02",
+                  "subtitulo": "Entrega visual",
+                  "lightboxTitle": "Semana 1 · Actividad 02",
+                  "explicacion": "Consolidado práctico de operaciones sobre arreglos unidimensionales."
+                }
               ]
             },
             {
@@ -84,16 +138,76 @@
               "abierta": false,
               "baseUrl": "img/",
               "items": [
-                { "archivo": "semana2-1.png", "titulo": "Ejercicio 01", "subtitulo": "Eliminar elemento", "lightboxTitle": "Semana 2 · Ejercicio 01", "explicacion": "Ubica la coordenada [f][c] dentro de la matriz y limpia o desplaza los valores según la posición indicada." },
-                { "archivo": "semana2-2.png", "titulo": "Ejercicio 02", "subtitulo": "Modificar elemento", "lightboxTitle": "Semana 2 · Ejercicio 02", "explicacion": "Actualiza directamente el valor almacenado en la celda m[fila][columna] en tiempo O(1)." },
-                { "archivo": "semana2-3.png", "titulo": "Ejercicio 03", "subtitulo": "Sumar elementos de la matriz", "lightboxTitle": "Semana 2 · Ejercicio 03", "explicacion": "Recorre todas las filas y columnas con doble for acumulando la suma general de la matriz." },
-                { "archivo": "semana2-4.png", "titulo": "Ejercicio 04", "subtitulo": "Número menor, mayor de la matriz", "lightboxTitle": "Semana 2 · Ejercicio 04", "explicacion": "Compara cada celda m[i][j] contra las variables menor y mayor inicializadas en m[0][0]." },
-                { "archivo": "semana2-5.png", "titulo": "Ejercicio 05", "subtitulo": "Visualizar la suma, letra L", "lightboxTitle": "Semana 2 · Ejercicio 05", "explicacion": "Recorre la primera columna (j == 0) y la última fila (i == filas - 1) formando la silueta de la letra L y sumando sus celdas." },
-                { "archivo": "semana2-6.png", "titulo": "Ejercicio 06", "subtitulo": "Visualizar la suma, letra J", "lightboxTitle": "Semana 2 · Ejercicio 06", "explicacion": "Selecciona y suma los elementos que conforman el trazo de la letra J dentro de la matriz." },
-                { "archivo": "semana2-7.png", "titulo": "Ejercicio 07", "subtitulo": "Visualizar la suma, letra U", "lightboxTitle": "Semana 2 · Ejercicio 07", "explicacion": "Suma las celdas de los bordes laterales (j == 0 y j == cols - 1) junto con la base inferior (i == filas - 1) formando la letra U." },
-                { "archivo": "semana2-8.png", "titulo": "Ejercicio 08", "subtitulo": "Menor número de fila", "lightboxTitle": "Semana 2 · Ejercicio 08", "explicacion": "Para cada fila i, reinicia el mínimo en m[i][0] y recorre sus columnas j para hallar el menor valor de esa fila." },
-                { "archivo": "semana2-9.png", "titulo": "Ejercicio 09", "subtitulo": "Contar números pares", "lightboxTitle": "Semana 2 · Ejercicio 09", "explicacion": "Incrementa un contador cada vez que una celda m[i][j] cumple la condición m[i][j] % 2 == 0." },
-                { "archivo": "semana2-10.png", "titulo": "Ejercicio 10", "subtitulo": "Mover contenido de filas", "lightboxTitle": "Semana 2 · Ejercicio 10", "explicacion": "Intercambia o desplaza los elementos completos entre filas de la matriz utilizando una variable auxiliar." }
+                {
+                  "archivo": "semana2-1.png",
+                  "titulo": "Ejercicio 01",
+                  "subtitulo": "Eliminar elemento",
+                  "lightboxTitle": "Semana 2 · Ejercicio 01",
+                  "explicacion": "Ubica la coordenada [f][c] dentro de la matriz y limpia o desplaza los valores según la posición indicada."
+                },
+                {
+                  "archivo": "semana2-2.png",
+                  "titulo": "Ejercicio 02",
+                  "subtitulo": "Modificar elemento",
+                  "lightboxTitle": "Semana 2 · Ejercicio 02",
+                  "explicacion": "Actualiza directamente el valor almacenado en la celda m[fila][columna] en tiempo O(1)."
+                },
+                {
+                  "archivo": "semana2-3.png",
+                  "titulo": "Ejercicio 03",
+                  "subtitulo": "Sumar elementos de la matriz",
+                  "lightboxTitle": "Semana 2 · Ejercicio 03",
+                  "explicacion": "Recorre todas las filas y columnas con doble for acumulando la suma general de la matriz."
+                },
+                {
+                  "archivo": "semana2-4.png",
+                  "titulo": "Ejercicio 04",
+                  "subtitulo": "Número menor, mayor de la matriz",
+                  "lightboxTitle": "Semana 2 · Ejercicio 04",
+                  "explicacion": "Compara cada celda m[i][j] contra las variables menor y mayor inicializadas en m[0][0]."
+                },
+                {
+                  "archivo": "semana2-5.png",
+                  "titulo": "Ejercicio 05",
+                  "subtitulo": "Visualizar la suma, letra L",
+                  "lightboxTitle": "Semana 2 · Ejercicio 05",
+                  "explicacion": "Recorre la primera columna (j == 0) y la última fila (i == filas - 1) formando la silueta de la letra L y sumando sus celdas."
+                },
+                {
+                  "archivo": "semana2-6.png",
+                  "titulo": "Ejercicio 06",
+                  "subtitulo": "Visualizar la suma, letra J",
+                  "lightboxTitle": "Semana 2 · Ejercicio 06",
+                  "explicacion": "Selecciona y suma los elementos que conforman el trazo de la letra J dentro de la matriz."
+                },
+                {
+                  "archivo": "semana2-7.png",
+                  "titulo": "Ejercicio 07",
+                  "subtitulo": "Visualizar la suma, letra U",
+                  "lightboxTitle": "Semana 2 · Ejercicio 07",
+                  "explicacion": "Suma las celdas de los bordes laterales (j == 0 y j == cols - 1) junto con la base inferior (i == filas - 1) formando la letra U."
+                },
+                {
+                  "archivo": "semana2-8.png",
+                  "titulo": "Ejercicio 08",
+                  "subtitulo": "Menor número de fila",
+                  "lightboxTitle": "Semana 2 · Ejercicio 08",
+                  "explicacion": "Para cada fila i, reinicia el mínimo en m[i][0] y recorre sus columnas j para hallar el menor valor de esa fila."
+                },
+                {
+                  "archivo": "semana2-9.png",
+                  "titulo": "Ejercicio 09",
+                  "subtitulo": "Contar números pares",
+                  "lightboxTitle": "Semana 2 · Ejercicio 09",
+                  "explicacion": "Incrementa un contador cada vez que una celda m[i][j] cumple la condición m[i][j] % 2 == 0."
+                },
+                {
+                  "archivo": "semana2-10.png",
+                  "titulo": "Ejercicio 10",
+                  "subtitulo": "Mover contenido de filas",
+                  "lightboxTitle": "Semana 2 · Ejercicio 10",
+                  "explicacion": "Intercambia o desplaza los elementos completos entre filas de la matriz utilizando una variable auxiliar."
+                }
               ]
             },
             {
@@ -113,35 +227,65 @@
                   "titulo": "Ejercicio 01",
                   "tema": "Registro de alumnos y promedio en main (Enunciado01.java)",
                   "explicacion": "Declara tres arreglos paralelos (codigo[], nombre[], notas[]) y resuelve en main() con do-while y switch el ingreso validado de alumnos (M1) y el listado tabular con cálculo del promedio general (M2).",
-                  "metodos": ["Registro de alumnos", "Registro de alumnos"]
+                  "metodos": [
+                    "Registro de alumnos",
+                    "Registro de alumnos"
+                  ]
                 },
                 {
                   "numero": "02",
                   "titulo": "Ejercicio 02",
                   "tema": "Gestión modular de empleados y sueldos (Enunciado02.java)",
                   "explicacion": "Organiza en 4 métodos el registro de empleados usando arreglos paralelos (código, nombre, sueldo/horas), listado general, búsqueda y cálculo de planilla.",
-                  "metodos": ["Gestión de empleados", "Gestión de empleados", "Gestión de empleados", "Gestión de empleados"]
+                  "metodos": [
+                    "Gestión de empleados",
+                    "Gestión de empleados",
+                    "Gestión de empleados",
+                    "Gestión de empleados"
+                  ]
                 },
                 {
                   "numero": "03",
                   "titulo": "Ejercicio 03",
                   "tema": "Promedio académico con 3 notas en paralelo (Enunciado03.java)",
                   "explicacion": "Maneja arreglos paralelos para nota1[], nota2[], nota3[] y promedio[], calculando automáticamente el promedio de cada estudiante y el estado académico en 4 métodos.",
-                  "metodos": ["Promedio con 3 notas", "Promedio con 3 notas", "Promedio con 3 notas", "Promedio con 3 notas"]
+                  "metodos": [
+                    "Promedio con 3 notas",
+                    "Promedio con 3 notas",
+                    "Promedio con 3 notas",
+                    "Promedio con 3 notas"
+                  ]
                 },
                 {
                   "numero": "04",
                   "titulo": "Ejercicio 04",
                   "tema": "Promedio individual, búsquedas y estadísticas (Enunciado04.java)",
                   "explicacion": "Implementa 6 métodos modulares sobre arreglos paralelos para ingresar datos, calcular promedios individuales, buscar por código/nombre y reportar mayor y menor nota.",
-                  "metodos": ["Promedio individual", "Promedio individual", "Promedio individual", "Promedio individual", "Promedio individual", "Promedio individual"]
+                  "metodos": [
+                    "Promedio individual",
+                    "Promedio individual",
+                    "Promedio individual",
+                    "Promedio individual",
+                    "Promedio individual",
+                    "Promedio individual"
+                  ]
                 },
                 {
                   "numero": "05",
                   "titulo": "Ejercicio 05",
                   "tema": "Ordenamiento y reportes de alumnos en arreglos paralelos (Enunciado05.java)",
                   "explicacion": "Implementa 9 métodos incluyendo ordenamiento sincronizado (al intercambiar notas[i] con notas[j], también se intercambian codigo[i] y nombre[i]), búsqueda y reportes.",
-                  "metodos": ["Orden de alumnos", "Orden de alumnos", "Orden de alumnos", "Orden de alumnos", "Orden de alumnos", "Orden de alumnos", "Orden de alumnos", "Orden de alumnos", "Orden de alumnos"]
+                  "metodos": [
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos",
+                    "Orden de alumnos"
+                  ]
                 }
               ]
             },
@@ -346,7 +490,7 @@
               "descripcion": "Entregas de la semana.",
               "resumenChatbot": "Implementación de Colas (FIFO - First In, First Out) con código fuente Java descargable (Semana07_codigo_sacijim.zip): Ejercicio 01 Cola estática circular de alumnos (ColaAlumno, 14 métodos); Ejercicio 02 Cola dinámica de atención de clientes por trámite (ColaAtencion, 9 métodos); Ejercicio 03 Cola dinámica de pedidos (ColaPedidos, 9 métodos).",
               "explicacionTecnica": "En la versión de sacijim, la Actividad 01 implementa ColaAlumno como una cola circular sobre arreglo usando índices frente, finalCola y cantidad con avance modular (finalCola + 1) % MAX, manejando errores con excepciones e invirtiendo la cola con una pila auxiliar de arreglo. Las Actividades 02 (ColaAtencion) y 03 (ColaPedidos) usan nodos simplemente enlazados con punteros frente y fin, y eliminan nodos específicos (por ticket o pedido) recorriendo con punteros anterior y actual.",
-              "abierta": true,
+              "abierta": false,
               "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana07-algoritmos/",
               "archivos": [
                 {
@@ -414,6 +558,80 @@
                     "calcularMontoTotal()",
                     "cancelarPedido()",
                     "menu()  ·  9. Salir"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u2-semana-8",
+              "numero": 8,
+              "badge": "Semana 8",
+              "titulo": "Tema: Recursividad",
+              "tema": "Recursividad aplicada: archivos, busqueda binaria y arbol binario",
+              "descripcion": "Entregas de la semana.",
+              "resumenChatbot": "Semana 08 de Algoritmos: Recursividad. Tres actividades con arquitectura Modelo/DAO/Vista: Proyecto 1 gestion y analisis de archivos de una empresa (recorrido recursivo de carpetas), Proyecto 2 busqueda de productos y analisis de inventario (busqueda binaria recursiva) y Proyecto 3 gestion de expedientes con arbol binario de busqueda. Una infografia por requerimiento. Version sacijim Java 11, codigo en paquete sacijim.rar.",
+              "explicacionTecnica": "En la version de sacijim Java 11 con switch clasico y excepciones controladas: Proyecto 1 AnalizadorCarpetas con un motor recursivo comun Predicate; Proyecto 2 Inventario con busquedaBinaria recursiva, valorDesde, unidadesDesde y filtrarDesde; Proyecto 3 ArbolExpedientes con insertarEn, buscarEn, inorden, contar, alturaDe y contarEstado.",
+              "abierta": true,
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana08-algoritmos/",
+              "archivos": [
+                {
+                  "icono": "RAR",
+                  "titulo": "Codigo Java — 3 actividades",
+                  "subtitulo": "sacijim.rar · GitHub",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana08-algoritmos",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana08-algoritmos/sacijim.rar",
+                  "descargarTexto": "Descargar .rar"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Actividad 01",
+                  "tema": "Gestion y analisis de archivos de una empresa",
+                  "explicacion": "Recorre recursivamente directorios y subdirectorios: lista, cuenta, suma tamanos, busca por nombre o extension, reporta por tipo y muestra la estructura jerarquica.",
+                  "metodos": [
+                    "seleccionarRaiz  ·  Seleccionar raiz",
+                    "listarArchivos  ·  Listar recursivo",
+                    "contarArchivos",
+                    "tamanioTotal",
+                    "buscarPorNombre y buscarPorExtension",
+                    "contarPorTipo  ·  Reporte por tipo",
+                    "mostrarEstructura  ·  Estructura jerarquica",
+                    "crearEstructuraPrueba",
+                    "menu  ·  0. Salir"
+                  ]
+                },
+                {
+                  "numero": "02",
+                  "titulo": "Actividad 02",
+                  "tema": "Busqueda de productos y analisis de inventario",
+                  "explicacion": "Registra productos ordenados por codigo, los busca con busqueda binaria recursiva y calcula valor total, unidades, sin existencias y bajo inventario de forma recursiva.",
+                  "metodos": [
+                    "registrar",
+                    "mostrarTodos  ·  Mostrar productos",
+                    "buscarPorCodigo  ·  Busqueda binaria",
+                    "valorTotal",
+                    "unidadesTotales",
+                    "sinExistencias",
+                    "bajoInventario",
+                    "menu  ·  0. Salir"
+                  ]
+                },
+                {
+                  "numero": "03",
+                  "titulo": "Actividad 03",
+                  "tema": "Gestion de expedientes y documentos academicos",
+                  "explicacion": "Arbol binario de busqueda por codigo: insertar, buscar, listar en orden ascendente inorden, contar, altura y contar por criterio de estado.",
+                  "metodos": [
+                    "registrarExpediente",
+                    "insertar  ·  Insertar en arbol",
+                    "buscar  ·  Buscar por codigo",
+                    "listarAscendente  ·  Inorden",
+                    "contarTotal",
+                    "altura",
+                    "contarPorEstado  ·  Criterio",
+                    "menu  ·  0. Salir"
                   ]
                 }
               ]

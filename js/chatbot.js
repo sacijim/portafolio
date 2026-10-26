@@ -8,13 +8,7 @@
 (function () {
   'use strict';
 
-  const AZURE_API_BASE_URL =
-    window.location.protocol === 'file:' ||
-    !window.location.hostname ||
-    window.location.hostname === 'localhost' ||
-    window.location.hostname === '127.0.0.1'
-      ? 'http://localhost:8080'
-      : '';
+  const AZURE_API_BASE_URL = window.CHATBOT_API_URL || 'https://ai.aurx.pro';
   const PORTFOLIO_ID = 'portfolio_a';
   const DEVICE_STORAGE_KEY = 'chatbot_device_id';
 
@@ -277,6 +271,11 @@
 
           let firstDownloadUrl = '';
           let externalUrl = '';
+          (s.archivos || []).forEach(arc => {
+            const href = arc.descargarUrl || arc.url || '';
+            if (href && !firstDownloadUrl) firstDownloadUrl = href;
+            if (arc.verUrl && !externalUrl) externalUrl = arc.verUrl;
+          });
           (s.recursos || []).forEach(rec => {
             const href = rec.url || (baseUrl + (rec.archivo || ''));
             if (rec.tipo === 'descarga' && !firstDownloadUrl) firstDownloadUrl = href;
@@ -388,12 +387,14 @@
     const autoExec = wantsVisual || wantsNav || wantsDownload;
 
     const wMatch = q.match(/\b(?:semana|sem|s)\s*0?([1-9]|1[0-6])\b/);
-    const eMatch = q.match(/\b(?:ejercicio|ej)\s*0?([1-5])\b/);
+    const eMatch = q.match(/\b(?:ejercicio|ej|actividad|act)\s*0?([1-5])\b/);
     let weekNum = wMatch ? parseInt(wMatch[1], 10) : null;
     let ejNum = eMatch ? parseInt(eMatch[1], 10) : null;
 
     if (weekNum === null) {
-      if (/\b(colaalumno|invertircola)\b/.test(q)) { weekNum = 7; ejNum = ejNum || 1; }
+      if (/\b(arbol|arboles|abb|arbolexpedientes|analizadorcarpetas|inventario|busquedabinaria|inorden)\b/.test(q)) {
+        weekNum = 8;
+      } else if (/\b(colaalumno|invertircola)\b/.test(q)) { weekNum = 7; ejNum = ejNum || 1; }
       else if (/\b(colaatencion|atendersiguiente)\b/.test(q)) { weekNum = 7; ejNum = ejNum || 2; }
       else if (/\b(colapedidos|cancelarpedido)\b/.test(q)) { weekNum = 7; ejNum = ejNum || 3; }
       else if (/\b(cola|colas|fifo)\b/.test(q)) { weekNum = 7; }
@@ -406,6 +407,12 @@
       else if (ejNum !== null && lastDetectedWeek !== null) {
         weekNum = lastDetectedWeek;
       }
+    }
+
+    if (weekNum === 8 && ejNum === null) {
+      if (/\b(analizadorcarpetas|archivoinfo|directorios|carpetas)\b/.test(q)) ejNum = 1;
+      else if (/\b(inventario|producto|busquedabinaria|existencias)\b/.test(q)) ejNum = 2;
+      else if (/\b(arbolexpedientes|expediente|inorden|abb|altura)\b/.test(q)) ejNum = 3;
     }
 
     const isTaller = /\b(taller|figma|prototipo|maven|pom)\b/.test(q);
@@ -686,6 +693,7 @@
             <button type="button" data-q="Explicame la semana 2 de ordenamiento">S2 Orden</button>
             <button type="button" data-q="Explicame la semana 6 de pilas">S6 Pilas</button>
             <button type="button" data-q="Explicame la semana 7 de colas">S7 Colas</button>
+            <button type="button" data-q="Explicame la semana 8 de recursividad y arbol binario">S8 Árboles</button>
             <button type="button" data-q="Que se hizo en Taller con Maven y Figma">Taller VII</button>
           </div>
         </div>
