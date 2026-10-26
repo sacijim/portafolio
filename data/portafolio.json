@@ -23,6 +23,10 @@
       "titulo": "Prototipado y Wireframes en Figma (Semana 1 - Taller)",
       "explicacion": "Un wireframe es el esquema estructural de baja o media fidelidad de una interfaz de usuario. En la Semana 1 de Taller se diseñaron en Figma las pantallas, jerarquía visual, navegación y flujo interactivo de la aplicación antes de su codificación."
     },
+    "tekora_proyecto": {
+      "titulo": "Proyecto Tekora (Semanas 4 y 5 - Taller)",
+      "explicacion": "Tekora es un proyecto integral de desarrollo de aplicaciones que incluye diseño UI/UX en Figma (Diseño_Tekora_Figma), paquete con el código fuente web (ProyectoWeb_Tekora.rar), manuales de Microsoft Azure y SQL Server 2025, y diseño de base de datos con diagrama conceptual y diagrama lógico-relacional."
+    },
     "complejidades": {
       "arreglo_unidimensional": "Acceso por índice O(1); búsqueda lineal, inserción y eliminación con desplazamiento de elementos O(n).",
       "arreglo_bidimensional": "Recorrido completo de matriz de F filas por C columnas: O(F * C).",
@@ -677,7 +681,7 @@
           "dot": "U1",
           "titulo": "Unidad 1",
           "meta": "Semanas 1 a 4",
-          "abierta": true,
+          "abierta": false,
           "semanas": [
             {
               "id": "u1-semana-1",
@@ -688,7 +692,7 @@
               "descripcion": "Prototipo y diseño en Figma para esta semana.",
               "resumenChatbot": "Semana 1 de Taller: Diseño de wireframes e interfaz de usuario en Figma para prototipado de aplicaciones.",
               "explicacionTecnica": "Consiste en el diseño de wireframes y maquetas interactivas en Figma para definir la arquitectura de información, componentes visuales y flujo de pantallas de la aplicación antes de pasar al entorno de desarrollo.",
-              "abierta": true,
+              "abierta": false,
               "archivos": [
                 {
                   "icono": "FIG",
@@ -711,7 +715,7 @@
               "descripcion": "Documento y release del proyecto para esta semana.",
               "resumenChatbot": "Semana 2 de Taller: Documento teórico-práctico sobre Definiciones de Maven y el archivo POM (pom.xml), acompañado del proyecto empaquetado Actividad02.rar en GitHub Releases.",
               "explicacionTecnica": "Incluye la investigación sobre Apache Maven y el modelo de objetos de proyecto (POM: groupId, artifactId, version, dependencias y ciclo de vida de construcción), junto con la solución práctica de la Actividad 02 empaquetada en formato RAR.",
-              "abierta": true,
+              "abierta": false,
               "archivos": [
                 {
                   "icono": "PDF",
@@ -743,14 +747,47 @@
               "descripcion": "Archivo rar con la actividad 1 y 2 de la semana 3.",
               "resumenChatbot": "Semana 3 de Taller: Paquete descargable Sarai.rar alojado en GitHub Releases con el desarrollo completo de las Actividades 01 y 02.",
               "explicacionTecnica": "Contiene los proyectos de código fuente correspondientes a las Actividades 01 y 02 de la Semana 3 del curso Taller de Desarrollo de Aplicaciones, listos para importar y ejecutar en el IDE.",
-              "abierta": true,
+              "abierta": false,
               "archivos": [
                 {
                   "icono": "RAR",
                   "titulo": "Actividad 01 y 02",
                   "subtitulo": "Sarai.rar · GitHub",
                   "verUrl": "https://github.com/sacijim/portafolio/releases/download/semana03-apps/Sarai.rar",
-                  "verTexto": "Descargar"
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana03-apps/Sarai.rar",
+                  "descargarTexto": "Descargar"
+                }
+              ]
+            },
+            {
+              "id": "u1-semana-4",
+              "numero": 4,
+              "badge": "Semana 4",
+              "titulo": "Proyecto Tekora y Diseño en Figma",
+              "tema": "Prototipado en Figma y Desarrollo Web del Proyecto Tekora",
+              "descripcion": "Entregables del proyecto Tekora: prototipo interactivo en Figma y paquete descargable con el código fuente del proyecto web.",
+              "resumenChatbot": "Semana 4 de Taller: Proyecto Tekora con prototipo UI/UX en Figma y código fuente empaquetado ProyectoWeb_Tekora.rar alojado en GitHub Releases.",
+              "explicacionTecnica": "Comprende el prototipado visual en Figma con arquitectura de pantallas y flujo de usuario para Tekora, junto con el desarrollo del código web empaquetado en formato RAR para su ejecución y revisión.",
+              "abierta": false,
+              "archivos": [
+                {
+                  "icono": "FIG",
+                  "titulo": "Diseño Tekora (Figma)",
+                  "subtitulo": "figma.com/design/tekora · GitHub Release",
+                  "verUrl": "https://www.figma.com/design/n1FUqtmJxAojT1nWDhOrm9/Sin-t%C3%ADtulo?node-id=0-1&t=Y8APjlsSvWdkBF2O-1",
+                  "verTexto": "Abrir Figma",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/tag/Dise%C3%B1o_Tekora_Figma",
+                  "descargarTexto": "Ver Release",
+                  "descargarExterno": true
+                },
+                {
+                  "icono": "RAR",
+                  "titulo": "Proyecto Tekora (Código Web)",
+                  "subtitulo": "ProyectoWeb_Tekora.rar · GitHub Release",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/PROYECTO_TEKORA",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/PROYECTO_TEKORA/ProyectoWeb_Tekora.rar",
+                  "descargarTexto": "Descargar .rar"
                 }
               ]
             }
@@ -761,8 +798,68 @@
           "dot": "U2",
           "titulo": "Unidad 2",
           "meta": "Semanas 5 a 8",
-          "abierta": false,
-          "semanas": []
+          "abierta": true,
+          "semanas": [
+            {
+              "id": "u2-semana-5",
+              "numero": 5,
+              "badge": "Semana 5",
+              "titulo": "Manuales Técnicos y Modelado de Base de Datos",
+              "tema": "Microsoft Azure, SQL Server 2025 y Diagramas de Base de Datos Tekora",
+              "descripcion": "Manuales técnicos en PDF para Azure y SQL Server 2025, junto con el modelado conceptual y lógico-relacional de la base de datos de Tekora.",
+              "resumenChatbot": "Semana 5 de Taller: Manuales en PDF de Creación de cuenta en Microsoft Azure y de Instalación de SQL Server 2025, además de los diagramas conceptual y lógico-relacional de la base de datos de Tekora.",
+              "explicacionTecnica": "Contiene la documentación técnica en PDF para el aprovisionamiento de recursos en Microsoft Azure y el despliegue de SQL Server 2025, complementado con el modelado de base de datos en Draw.io: diagrama conceptual (entidades, relaciones y cardinalidad) y diagrama lógico-relacional (tablas, claves primarias, foráneas e integridad referencial).",
+              "abierta": true,
+              "baseUrl": "img/",
+              "archivos": [
+                {
+                  "icono": "PDF",
+                  "titulo": "Manual Creación de Cuenta Microsoft Azure",
+                  "subtitulo": "Manual_Creacion_Cuenta_Microsoft_Azure.pdf · PDF",
+                  "verUrl": "pdfs/Manual_Creacion_Cuenta_Microsoft_Azure.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/Manual_Creacion_Cuenta_Microsoft_Azure.pdf",
+                  "descargarNombre": "Manual_Creacion_Cuenta_Microsoft_Azure.pdf",
+                  "descargarTexto": "Descargar"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Manual Instalación SQL Server 2025",
+                  "subtitulo": "Manual_Instalacion_SQL_Server_2025 (1).pdf · PDF",
+                  "verUrl": "pdfs/Manual_Instalacion_SQL_Server_2025 (1).pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/Manual_Instalacion_SQL_Server_2025 (1).pdf",
+                  "descargarNombre": "Manual_Instalacion_SQL_Server_2025 (1).pdf",
+                  "descargarTexto": "Descargar"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Diagramas de Base de Datos — Sistema Tekora",
+                  "tema": "Modelo Conceptual y Modelo Lógico-Relacional",
+                  "explicacion": "Diseño de la base de datos para la aplicación Tekora desarrollado en Draw.io.",
+                  "abierto": true,
+                  "items": [
+                    {
+                      "archivo": "DiagramaConceptual_TEKORA.drawio.png",
+                      "titulo": "Diagrama Conceptual",
+                      "subtitulo": "Modelo Conceptual de Datos · Tekora (Draw.io)",
+                      "lightboxTitle": "Semana 5 · Diagrama Conceptual Tekora",
+                      "explicacion": "Representación de entidades de negocio, relaciones y atributos principales del sistema Tekora."
+                    },
+                    {
+                      "archivo": "DiagramaLogicoRelacional_TEKORA.drawio.png",
+                      "titulo": "Diagrama Lógico Relacional",
+                      "subtitulo": "Modelo Relacional, PKs y FKs · Tekora (Draw.io)",
+                      "lightboxTitle": "Semana 5 · Diagrama Lógico Relacional Tekora",
+                      "explicacion": "Esquema relacional con definición de tablas, llaves primarias, foráneas, tipos y normalización."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "unidad-3",

@@ -147,7 +147,7 @@
         var countLabel = resolvedItems.length + (resolvedItems.length === 1 ? ' imagen' : ' imágenes');
         var exId = semana.id + '-ej-' + ej.numero;
         return (
-          '<details class="exercise-group" id="' + escapeHtml(exId) + '">' +
+          '<details class="exercise-group"' + (ej.abierto ? ' open' : '') + ' id="' + escapeHtml(exId) + '">' +
             '<summary class="exercise-group__header">' +
               '<span class="exercise-group__title">' + escapeHtml(ej.titulo) + '</span>' +
               '<span class="exercise-group__count">' + escapeHtml(countLabel) + '</span>' +

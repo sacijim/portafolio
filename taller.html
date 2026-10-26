@@ -42,6 +42,77 @@
     </section>
   </main>
 
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Vista previa de la imagen">
+    <div class="lightbox__header">
+      <div class="lightbox__title-wrap">
+        <span class="lightbox__title" id="lightboxTitle">Vista previa</span>
+        <span class="lightbox__zoom-badge" id="lightboxZoomLevel">100%</span>
+      </div>
+      <div class="lightbox__actions">
+        <button class="lightbox__btn" id="lightboxZoomOut" type="button" aria-label="Alejar imagen" title="Alejar (-)">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            <line x1="8" y1="11" x2="14" y2="11" />
+          </svg>
+          <span>Alejar</span>
+        </button>
+        <button class="lightbox__btn" id="lightboxZoomReset" type="button" aria-label="Restablecer tamaño al 100%"
+          title="Tamaño normal">
+          <span>100%</span>
+        </button>
+        <button class="lightbox__btn lightbox__btn--primary" id="lightboxZoomIn" type="button"
+          aria-label="Agrandar imagen" title="Agrandar (+)">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            <line x1="11" y1="8" x2="11" y2="14" />
+            <line x1="8" y1="11" x2="14" y2="11" />
+          </svg>
+          <span>Agrandar</span>
+        </button>
+        <a class="lightbox__btn" id="lightboxOpenTab" href="" target="_blank" rel="noopener"
+          aria-label="Abrir imagen completa en pestaña nueva" title="Ver imagen original">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+          <span>Ver original</span>
+        </a>
+        <a class="lightbox__btn" id="lightboxDownload" href="" download="" aria-label="Descargar imagen"
+          title="Descargar archivo">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span>Descargar</span>
+        </a>
+        <button class="lightbox__btn lightbox__btn--close" id="lightboxClose" type="button"
+          aria-label="Cerrar vista previa" title="Cerrar (Esc)">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+          <span>Cerrar</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="lightbox__stage" id="lightboxStage">
+      <div class="lightbox__image-wrapper" id="lightboxWrapper">
+        <img class="lightbox__image" id="lightboxImage" src="" alt="" draggable="false" />
+      </div>
+    </div>
+
+    <div class="lightbox__footer">
+      <span class="lightbox__hint" id="lightboxHint">Haz clic en la imagen o en "Agrandar" para ampliarla &middot;
+        Rueda del ratón para zoom &middot; Arrastra para mover</span>
+    </div>
+  </div>
+
   <footer class="footer" role="contentinfo">
     <p>Portafolio Académico &mdash; <span>Ingeniería de Sistemas y Computación</span> &mdash; Universidad Peruana Los
       Andes</p>

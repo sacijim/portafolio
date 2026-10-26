@@ -415,9 +415,12 @@
       else if (/\b(arbolexpedientes|expediente|inorden|abb|altura)\b/.test(q)) ejNum = 3;
     }
 
-    const isTaller = /\b(taller|figma|prototipo|maven|pom)\b/.test(q);
+    const isTaller = /\b(taller|figma|prototipo|maven|pom|tekora|azure|sql|diagrama)\b/.test(q);
     if (isTaller && weekNum === null) {
-      weekNum = /\b(figma|prototipo)\b/.test(q) ? 2 : 1;
+      if (/\b(azure|sql|diagrama|conceptual|relacional)\b/.test(q)) weekNum = 5;
+      else if (/\b(tekora)\b/.test(q)) weekNum = 4;
+      else if (/\b(maven|pom)\b/.test(q)) weekNum = 2;
+      else if (/\b(figma|prototipo)\b/.test(q)) weekNum = 1;
     }
 
     if (weekNum !== null) {
