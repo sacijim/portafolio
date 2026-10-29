@@ -364,7 +364,7 @@
               "titulo": "Tema: ArrayList",
               "tema": "Colecciones Dinámicas con ArrayList",
               "descripcion": "Entregas de la semana.",
-              "resumenChatbot": "Uso de java.util.ArrayList<T> para listas dinámicas de objetos: Ejercicio 01 (DAOAlumno con 10 métodos de búsqueda, carrera, ordenamiento, inversión y rangos) y Ejercicio 02 (Sistema relacional con DAOEstudiante, DAOCurso y DAOMatricula con 21 métodos).",
+              "resumenChatbot": "Uso de java.util.ArrayList<T> para listas dinámicas de objetos: Ejercicio 01 (DAOAlumno con 10 métodos de búsqueda, carrera, ordenamiento, inversión y rangos) y Ejercicio 02 (Sistema relacional con DAOEstudiante, DAOCurso y DAOMatricula con 20 métodos).",
               "explicacionTecnica": "Reemplaza los arreglos de tamaño fijo por ArrayList<T>, permitiendo inserciones dinámicas con add(), eliminaciones con remove(), acceso con get(i) y ordenamientos con Collections/Comparator sin preocuparse por desbordamiento de capacidad.",
               "abierta": false,
               "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana05-algoritmos/",
@@ -390,8 +390,8 @@
                 {
                   "numero": "02",
                   "titulo": "Ejercicio 02",
-                  "tema": "Sistema académico relacional de Estudiantes, Cursos y Matrículas (21 métodos)",
-                  "explicacion": "Arquitectura con 3 DAOs basados en ArrayList: DAOEstudiante (CRUD de estudiantes: métodos 1 al 5), DAOCurso (CRUD de cursos: métodos 6 al 10) y DAOMatricula (matrículas, notas y reportes: métodos 11 al 20 + menú). Calcula promedio ponderado/simple por estudiante, ranking académico ordenado por rendimiento, filtro por carrera, desaprobados y mejor promedio.",
+                  "tema": "Sistema académico relacional de Estudiantes, Cursos y Matrículas (20 métodos)",
+                  "explicacion": "Arquitectura con 3 DAOs basados en ArrayList: DAOEstudiante (CRUD de estudiantes: métodos 1 al 5), DAOCurso (CRUD de cursos: métodos 6 al 10) y DAOMatricula (matrículas, notas y reportes: métodos 11 al 20). Calcula promedio ponderado/simple por estudiante, ranking académico ordenado por rendimiento, filtro por carrera, desaprobados y mejor promedio.",
                   "metodos": [
                     "registrarEstudiante()",
                     "listarEstudiantes()",
@@ -412,8 +412,7 @@
                     "rankingAcademico()",
                     "estudiantesPorCarrera()",
                     "estudiantesDesaprobados()",
-                    "mejorPromedio()",
-                    "menu() · [21] Salir"
+                    "mejorPromedio()"
                   ]
                 }
               ]
@@ -425,7 +424,7 @@
               "titulo": "Tema: Pilas",
               "tema": "Pilas (LIFO: Estática, Dinámica y Undo/Redo)",
               "descripcion": "Entregas de la semana.",
-              "resumenChatbot": "Implementación completa de Pilas (LIFO - Last In, First Out) en 3 actividades: Ejercicio 01 Pila estática de alumnos (PilaAlumno, 10 métodos); Ejercicio 02 Pila dinámica con nodos enlazados de computadoras (PilaInventario, 11 métodos); Ejercicio 03 Historial Deshacer/Rehacer con doble pila (GestorDocumento, 8 métodos).",
+              "resumenChatbot": "Implementación completa de Pilas (LIFO - Last In, First Out) en 3 actividades: Ejercicio 01 Pila estática de alumnos (PilaAlumno, 9 métodos); Ejercicio 02 Pila dinámica con nodos enlazados de computadoras (PilaInventario, 10 métodos); Ejercicio 03 Historial Deshacer/Rehacer con doble pila (GestorDocumento, 7 métodos).",
               "explicacionTecnica": "Una Pila opera bajo el principio LIFO: el último elemento en entrar es el primero en salir. En versión estática se controla con un arreglo y un índice tope (inicializado en -1). En versión dinámica se usa una lista simplemente enlazada donde el nuevo Nodo apunta a la antigua cima (nuevo.siguiente = cima; cima = nuevo) logrando Push, Pop y Peek en O(1).",
               "abierta": false,
               "baseUrl": "img/semana06/",
@@ -444,8 +443,7 @@
                     "mostrarEstadoCapacidad()",
                     "buscarAlumnoPorCodigo()",
                     "verificarEstadoLogico()",
-                    "mostrarMejorPromedio()",
-                    "menu() · 10. Salir"
+                    "mostrarMejorPromedio()"
                   ]
                 },
                 {
@@ -463,8 +461,7 @@
                     "buscarPorSerie()",
                     "calcularValorInventario()",
                     "mostrarEquiposSuperioresA()",
-                    "obtenerEquipoMasCaro()",
-                    "menu() · 11. Salir"
+                    "obtenerEquipoMasCaro()"
                   ]
                 },
                 {
@@ -479,8 +476,7 @@
                     "mostrarEstadoHistorial()",
                     "buscarAccionEnHistorial()",
                     "invertirPilaAcciones()",
-                    "exportarHistorialResumen()",
-                    "menu() · 8. Salir"
+                    "exportarHistorialResumen()"
                   ]
                 }
               ]
@@ -492,7 +488,7 @@
               "titulo": "Tema: Colas",
               "tema": "Colas (FIFO: Circular Estática y Dinámicas Enlazadas)",
               "descripcion": "Entregas de la semana.",
-              "resumenChatbot": "Implementación de Colas (FIFO - First In, First Out) con código fuente Java descargable (Semana07_codigo_sacijim.zip): Ejercicio 01 Cola estática circular de alumnos (ColaAlumno, 14 métodos); Ejercicio 02 Cola dinámica de atención de clientes por trámite (ColaAtencion, 9 métodos); Ejercicio 03 Cola dinámica de pedidos (ColaPedidos, 9 métodos).",
+              "resumenChatbot": "Implementación de Colas (FIFO - First In, First Out) con código fuente Java descargable (Semana07_codigo_sacijim.zip): Ejercicio 01 Cola estática circular de alumnos (ColaAlumno, 13 métodos); Ejercicio 02 Cola dinámica de atención de clientes por trámite (ColaAtencion, 8 métodos); Ejercicio 03 Cola dinámica de pedidos (ColaPedidos, 8 métodos).",
               "explicacionTecnica": "En la versión de sacijim, la Actividad 01 implementa ColaAlumno como una cola circular sobre arreglo usando índices frente, finalCola y cantidad con avance modular (finalCola + 1) % MAX, manejando errores con excepciones e invirtiendo la cola con una pila auxiliar de arreglo. Las Actividades 02 (ColaAtencion) y 03 (ColaPedidos) usan nodos simplemente enlazados con punteros frente y fin, y eliminan nodos específicos (por ticket o pedido) recorriendo con punteros anterior y actual.",
               "abierta": false,
               "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana07-algoritmos/",
@@ -526,8 +522,7 @@
                     "filtrarPorRendimiento()",
                     "alumnoMayor/MenorPromedio()",
                     "invertir()",
-                    "eliminarPorCodigo()",
-                    "menu()  ·  0. Salir"
+                    "eliminarPorCodigo()"
                   ]
                 },
                 {
@@ -543,8 +538,7 @@
                     "estaVacia()",
                     "buscarCliente()",
                     "filtrarPorTramite()",
-                    "eliminarPorTicket()",
-                    "menu()  ·  9. Salir"
+                    "eliminarPorTicket()"
                   ]
                 },
                 {
@@ -560,8 +554,7 @@
                     "estaVacia()",
                     "buscarPedido()",
                     "calcularMontoTotal()",
-                    "cancelarPedido()",
-                    "menu()  ·  9. Salir"
+                    "cancelarPedido()"
                   ]
                 }
               ]
@@ -601,9 +594,7 @@
                     "tamanioTotal",
                     "buscarPorNombre y buscarPorExtension",
                     "contarPorTipo  ·  Reporte por tipo",
-                    "mostrarEstructura  ·  Estructura jerarquica",
-                    "crearEstructuraPrueba",
-                    "menu  ·  0. Salir"
+                    "mostrarEstructura  ·  Estructura jerarquica"
                   ]
                 },
                 {
@@ -618,8 +609,7 @@
                     "valorTotal",
                     "unidadesTotales",
                     "sinExistencias",
-                    "bajoInventario",
-                    "menu  ·  0. Salir"
+                    "bajoInventario"
                   ]
                 },
                 {
@@ -634,8 +624,7 @@
                     "listarAscendente  ·  Inorden",
                     "contarTotal",
                     "altura",
-                    "contarPorEstado  ·  Criterio",
-                    "menu  ·  0. Salir"
+                    "contarPorEstado  ·  Criterio"
                   ]
                 }
               ]
