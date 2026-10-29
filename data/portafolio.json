@@ -428,7 +428,7 @@
               "resumenChatbot": "Implementación completa de Pilas (LIFO - Last In, First Out) en 3 actividades: Ejercicio 01 Pila estática de alumnos (PilaAlumno, 10 métodos); Ejercicio 02 Pila dinámica con nodos enlazados de computadoras (PilaInventario, 11 métodos); Ejercicio 03 Historial Deshacer/Rehacer con doble pila (GestorDocumento, 8 métodos).",
               "explicacionTecnica": "Una Pila opera bajo el principio LIFO: el último elemento en entrar es el primero en salir. En versión estática se controla con un arreglo y un índice tope (inicializado en -1). En versión dinámica se usa una lista simplemente enlazada donde el nuevo Nodo apunta a la antigua cima (nuevo.siguiente = cima; cima = nuevo) logrando Push, Pop y Peek en O(1).",
               "abierta": false,
-              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana06-algoritmo-corregido/",
+              "baseUrl": "img/semana06/",
               "ejercicios": [
                 {
                   "numero": "01",
