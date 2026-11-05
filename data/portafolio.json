@@ -566,19 +566,19 @@
               "titulo": "Tema: Recursividad",
               "tema": "Recursividad aplicada: archivos, busqueda binaria y arbol binario",
               "descripcion": "Entregas de la semana.",
-              "resumenChatbot": "Semana 08 de Algoritmos: Recursividad. Tres actividades con arquitectura Modelo/DAO/Vista: Proyecto 1 gestion y analisis de archivos de una empresa (recorrido recursivo de carpetas), Proyecto 2 busqueda de productos y analisis de inventario (busqueda binaria recursiva) y Proyecto 3 gestion de expedientes con arbol binario de busqueda. Una infografia por requerimiento. Version sacijim Java 11, codigo en paquete sacijim.rar.",
-              "explicacionTecnica": "En la version de sacijim Java 11 con switch clasico y excepciones controladas: Proyecto 1 AnalizadorCarpetas con un motor recursivo comun Predicate; Proyecto 2 Inventario con busquedaBinaria recursiva, valorDesde, unidadesDesde y filtrarDesde; Proyecto 3 ArbolExpedientes con insertarEn, buscarEn, inorden, contar, alturaDe y contarEstado.",
+              "resumenChatbot": "Semana 08 de Algoritmos: Recursividad. Tres actividades ejecutables directamente en NetBeans con Shift+F6: Actividad 01 gestion y analisis de archivos de una empresa (recorrido recursivo DFS de carpetas y arbol jerarquico), Actividad 02 busqueda de productos y analisis de inventario (busqueda binaria recursiva) y Actividad 03 gestion de expedientes con arbol binario de busqueda (insercion, busqueda y recorrido inorden recursivo). 25 infografias con diagramas de flujo integrados. Version sacijim Java 11+, codigo en paquete Semana08_codigo_sacijim.zip.",
+              "explicacionTecnica": "En la version de sacijim Java 11+ para NetBeans directo (sin capas abstractas DAO/Vista/Modelo): Actividad01_Archivos con recorrido DFS y diagramas de flujo y jerarquico; Actividad02_Inventario con busquedaBinariaRecursiva y diagramas de decision; Actividad03_Expedientes con arbol binario de busqueda (ABB), diagramas de insercion y recorrido inorden.",
               "abierta": true,
               "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana08-algoritmos/",
               "archivos": [
                 {
-                  "icono": "RAR",
-                  "titulo": "Codigo Java — 3 actividades",
-                  "subtitulo": "sacijim.rar · GitHub",
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — 3 actividades NetBeans",
+                  "subtitulo": "Semana08_codigo_sacijim.zip · GitHub",
                   "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana08-algoritmos",
                   "verTexto": "Ver en GitHub",
-                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana08-algoritmos/sacijim.rar",
-                  "descargarTexto": "Descargar .rar"
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana08-algoritmos/Semana08_codigo_sacijim.zip",
+                  "descargarTexto": "Descargar .zip"
                 }
               ],
               "ejercicios": [
@@ -636,8 +636,46 @@
           "dot": "U3",
           "titulo": "Unidad 3: LISTAS ENLAZADAS",
           "meta": "Semanas 9 a 12",
-          "abierta": false,
-          "semanas": []
+          "abierta": true,
+          "semanas": [
+            {
+              "id": "u3-semana-9",
+              "numero": 9,
+              "badge": "Semana 9",
+              "titulo": "Tema: Recursividad anidada",
+              "tema": "Recursividad anidada: dependencias de tareas, evaluador de formulas y costos de productos",
+              "descripcion": "Entregas de la semana: 3 infografias tipo poster y codigo fuente Java.",
+              "resumenChatbot": "Semana 09 de Algoritmos: Recursividad anidada. Tres actividades con arquitectura Modelo/DAO/Vista, una infografia tipo poster por proyecto: Proyecto 02 analisis de dependencias de tareas (profundidad maxima con nivelMasProfundo, deteccion de ciclos); Proyecto 03 evaluador de expresiones con parentesis anidados (descenso recursivo, BigDecimal); Proyecto 04 costos de productos compuestos (costoTotal con sumarComponentes). Version sacijim Java 11.",
+              "explicacionTecnica": "Version sacijim Java 11: Proyecto 02 DependenciasDAO (TareaModelo, ProyectoModelo); Proyecto 03 EvaluadorExpresionesDAO (ExpresionModelo); Proyecto 04 CostosProductosDAO (ComponenteModelo, ProductoModelo). La recursividad anidada pasa el resultado de una llamada recursiva como argumento de otra.",
+              "abierta": true,
+              "baseUrl": "img/semana09/",
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — 3 actividades",
+                  "subtitulo": "Semana09_codigo_sacijim.zip",
+                  "verUrl": "assets/code/Semana09_codigo_sacijim.zip",
+                  "verTexto": "Descargar .zip",
+                  "descargarUrl": "assets/code/Semana09_codigo_sacijim.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ],
+              "items": [
+                {
+                  "nombre": "Proyecto 02 - Analisis de dependencias de tareas",
+                  "archivo": "Proyecto02.png"
+                },
+                {
+                  "nombre": "Proyecto 03 - Evaluador de formulas y reglas de negocio",
+                  "archivo": "Proyecto03.png"
+                },
+                {
+                  "nombre": "Proyecto 04 - Calculo de costos de productos compuestos",
+                  "archivo": "Proyecto04.png"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "unidad-4",
