@@ -496,11 +496,10 @@
                 {
                   "icono": "ZIP",
                   "titulo": "Codigo Java (3 actividades)",
-                  "subtitulo": "Semana07_codigo_sacijim.zip · GitHub",
-                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana07-algoritmos",
-                  "verTexto": "Ver en GitHub",
+                  "subtitulo": "Semana07_codigo_sacijim.zip",
                   "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana07-algoritmos/Semana07_codigo_sacijim.zip",
-                  "descargarTexto": "Descargar"
+                  "descargarTexto": "Descargar",
+                  "descargarNombre": "Semana07_codigo_sacijim.zip"
                 }
               ],
               "ejercicios": [
@@ -574,11 +573,10 @@
                 {
                   "icono": "ZIP",
                   "titulo": "Codigo Java — 3 actividades NetBeans",
-                  "subtitulo": "Semana08_codigo_sacijim.zip · GitHub",
-                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana08-algoritmos",
-                  "verTexto": "Ver en GitHub",
+                  "subtitulo": "Semana08_codigo_sacijim.zip",
                   "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana08-algoritmos/Semana08_codigo_sacijim.zip",
-                  "descargarTexto": "Descargar .zip"
+                  "descargarTexto": "Descargar .zip",
+                  "descargarNombre": "Semana08_codigo_sacijim.zip"
                 }
               ],
               "ejercicios": [
@@ -654,8 +652,6 @@
                   "icono": "ZIP",
                   "titulo": "Codigo Java — 3 actividades",
                   "subtitulo": "Semana09_codigo_sacijim.zip",
-                  "verUrl": "assets/code/Semana09_codigo_sacijim.zip",
-                  "verTexto": "Descargar .zip",
                   "descargarUrl": "assets/code/Semana09_codigo_sacijim.zip",
                   "descargarTexto": "Descargar .zip"
                 }
@@ -690,11 +686,10 @@
                 {
                   "icono": "ZIP",
                   "titulo": "Codigo Java — proyecto NetBeans CSemana10",
-                  "subtitulo": "Semana10_sacijim.zip · GitHub",
-                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana10-algoritmos",
-                  "verTexto": "Ver en GitHub",
+                  "subtitulo": "Semana10_sacijim.zip",
                   "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana10-algoritmos/Semana10_sacijim.zip",
-                  "descargarTexto": "Descargar .zip"
+                  "descargarTexto": "Descargar .zip",
+                  "descargarNombre": "Semana10_sacijim.zip"
                 }
               ],
               "ejercicios": [
@@ -721,6 +716,54 @@
                     "modificar  ·  Modificar datos",
                     "estaVacia  ·  Verificar si esta vacia",
                     "menu  ·  Menu principal (0. Salir)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u3-semana-11",
+              "numero": 11,
+              "badge": "Semana 11",
+              "titulo": "Tema: Listas circulares simplemente enlazadas",
+              "tema": "Listas circulares: gestion de alumnos y turnos de un centro medico",
+              "descripcion": "Entregas de la semana: 16 infografias del Proyecto 01 y codigo fuente de los Proyectos 01 y 02 (NetBeans).",
+              "resumenChatbot": "Semana 11 de Algoritmos: Listas circulares simplemente enlazadas. Proyecto 01: sistema de gestion de alumnos (codigo, nombres, carrera, semestre) con insertar al inicio, al final, en posicion X y por referencia; eliminar el primero, el ultimo, en posicion X y por referencia; buscar, recorrer, ordenar por codigo, intercambiar, cantidad y modificar; 16 infografias. Proyecto 02: sistema de turnos de un centro medico (Paciente, Turno, CNodo) con atender al siguiente, cancelar, reprogramar, proximo paciente y ordenar por numero de turno. Version sacijim Java 11, codigo en Semana11_sacijim.zip.",
+              "explicacionTecnica": "Version sacijim Java 11: la lista circular usa el puntero p al primer nodo y CNodo(dato, sig); el ultimo nodo se encuentra con ultimoNodo() (el que apunta a p). Los recorridos usan do-while (q != p) y cada cambio en los extremos actualiza el enlace del ultimo para no romper el circulo. Proyecto 02 CentroMedico con CListaTurnos (inicio) y turnos con estado PENDIENTE, ATENDIDO o CANCELADO.",
+              "abierta": true,
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana11-algoritmos/",
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — Proyectos 01 y 02 (NetBeans)",
+                  "subtitulo": "Semana11_sacijim.zip",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana11-algoritmos/Semana11_sacijim.zip",
+                  "descargarTexto": "Descargar .zip",
+                  "descargarNombre": "Semana11_sacijim.zip"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Proyecto 01",
+                  "tema": "Sistema de gestion de alumnos con lista circular simplemente enlazada",
+                  "explicacion": "Proyecto NetBeans CSemana11 (DAO/CListaCircular, Modelo/Alumno, Modelo/CNodo, Vista/MenuOpciones, Vista/Principal). El ultimo nodo apunta otra vez al primero: cada infografia dibuja los nodos, sus enlaces y la vuelta del ultimo al primero. La ultima infografia explica el mecanismo de circularidad.",
+                  "metodos": [
+                    "insertarInicio  ·  Insertar al inicio",
+                    "insertarFinal  ·  Insertar al final",
+                    "insertarPosicion  ·  Insertar en posicion X",
+                    "insertarReferencia  ·  Insertar por referencia",
+                    "eliminarInicio  ·  Eliminar el primero",
+                    "eliminarFinal  ·  Eliminar el ultimo",
+                    "eliminarPosicion  ·  Eliminar en posicion X",
+                    "eliminarReferencia  ·  Eliminar por referencia",
+                    "buscar  ·  Buscar por codigo",
+                    "mostrar  ·  Recorrer la lista",
+                    "ordenarPorCodigo  ·  Ordenar por codigo",
+                    "intercambiar  ·  Intercambiar dos alumnos",
+                    "contarNodos  ·  Cantidad de alumnos",
+                    "modificar  ·  Modificar datos",
+                    "menu  ·  Menu principal (0. Salir)",
+                    "CNodo  ·  Explicacion: nodos, enlaces y circularidad"
                   ]
                 }
               ]

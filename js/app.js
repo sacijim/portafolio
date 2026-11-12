@@ -129,7 +129,7 @@
 
     if (Array.isArray(semana.archivos) && semana.archivos.length > 0) {
       innerHtml +=
-        '<div class="file-list" aria-label="Entregables de la semana ' + escapeHtml(semana.numero) + '">' +
+        '<div class="file-list file-list--archivos" aria-label="Entregables de la semana ' + escapeHtml(semana.numero) + '">' +
           semana.archivos.map(renderAttachmentFileItem).join('') +
         '</div>';
     }
