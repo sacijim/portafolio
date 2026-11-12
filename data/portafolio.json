@@ -726,7 +726,7 @@
               "badge": "Semana 11",
               "titulo": "Tema: Listas circulares simplemente enlazadas",
               "tema": "Listas circulares: gestion de alumnos y turnos de un centro medico",
-              "descripcion": "Entregas de la semana: 16 infografias del Proyecto 01 y codigo fuente de los Proyectos 01 y 02 (NetBeans).",
+              "descripcion": "Entregas de la semana: informe, 33 infografias (Proyecto 01: 16 y Proyecto 02: 17) y codigo fuente de ambos proyectos en NetBeans.",
               "resumenChatbot": "Semana 11 de Algoritmos: Listas circulares simplemente enlazadas. Proyecto 01: sistema de gestion de alumnos (codigo, nombres, carrera, semestre) con insertar al inicio, al final, en posicion X y por referencia; eliminar el primero, el ultimo, en posicion X y por referencia; buscar, recorrer, ordenar por codigo, intercambiar, cantidad y modificar; 16 infografias. Proyecto 02: sistema de turnos de un centro medico (Paciente, Turno, CNodo) con atender al siguiente, cancelar, reprogramar, proximo paciente y ordenar por numero de turno. Version sacijim Java 11, codigo en Semana11_sacijim.zip.",
               "explicacionTecnica": "Version sacijim Java 11: la lista circular usa el puntero p al primer nodo y CNodo(dato, sig); el ultimo nodo se encuentra con ultimoNodo() (el que apunta a p). Los recorridos usan do-while (q != p) y cada cambio en los extremos actualiza el enlace del ultimo para no romper el circulo. Proyecto 02 CentroMedico con CListaTurnos (inicio) y turnos con estado PENDIENTE, ATENDIDO o CANCELADO.",
               "abierta": true,
@@ -734,19 +734,37 @@
               "archivos": [
                 {
                   "icono": "ZIP",
-                  "titulo": "Codigo Java — Proyectos 01 y 02 (NetBeans)",
+                  "titulo": "Codigo Java — Proyectos 01 y 02 (NetBeans) + informe",
                   "subtitulo": "Semana11_sacijim.zip",
                   "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana11-algoritmos/Semana11_sacijim.zip",
                   "descargarTexto": "Descargar .zip",
                   "descargarNombre": "Semana11_sacijim.zip"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Informe de la Semana 11 — Listas circulares",
+                  "subtitulo": "Informe_Semana11_sacijim.pdf",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/download/semana11-algoritmos/Informe_Semana11_sacijim.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana11-algoritmos/Informe_Semana11_sacijim.pdf",
+                  "descargarTexto": "Descargar",
+                  "descargarNombre": "Informe_Semana11_sacijim.pdf"
+                },
+                {
+                  "icono": "DOCX",
+                  "titulo": "Informe de la Semana 11 — version Word",
+                  "subtitulo": "Informe_Semana11_sacijim.docx",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana11-algoritmos/Informe_Semana11_sacijim.docx",
+                  "descargarTexto": "Descargar",
+                  "descargarNombre": "Informe_Semana11_sacijim.docx"
                 }
               ],
               "ejercicios": [
                 {
                   "numero": "01",
-                  "titulo": "Proyecto 01",
+                  "titulo": "Proyecto 01 (Gestion de alumnos)",
                   "tema": "Sistema de gestion de alumnos con lista circular simplemente enlazada",
-                  "explicacion": "Proyecto NetBeans CSemana11 (DAO/CListaCircular, Modelo/Alumno, Modelo/CNodo, Vista/MenuOpciones, Vista/Principal). El ultimo nodo apunta otra vez al primero: cada infografia dibuja los nodos, sus enlaces y la vuelta del ultimo al primero. La ultima infografia explica el mecanismo de circularidad.",
+                  "explicacion": "Proyecto NetBeans CSemana11 (DAO/CListaCircular, Modelo/Alumno, Modelo/CNodo, Vista/MenuOpciones, Vista/Principal). Cada infografia dibuja los nodos, sus enlaces y la vuelta del ultimo al primero; la ultima explica el mecanismo de circularidad.",
                   "metodos": [
                     "insertarInicio  ·  Insertar al inicio",
                     "insertarFinal  ·  Insertar al final",
@@ -764,6 +782,31 @@
                     "modificar  ·  Modificar datos",
                     "menu  ·  Menu principal (0. Salir)",
                     "CNodo  ·  Explicacion: nodos, enlaces y circularidad"
+                  ]
+                },
+                {
+                  "numero": "02",
+                  "titulo": "Proyecto 02 (Turnos de un centro medico)",
+                  "tema": "Sistema de gestion de turnos de atencion en un centro medico con lista circular",
+                  "explicacion": "Proyecto NetBeans CentroMedico (Modelo/Paciente, Modelo/Turno, Modelo/CNodo, DAO/CListaTurnos, Vista). Registro de pacientes, atencion del siguiente, cancelacion y reprogramacion de turnos, consultas y administracion.",
+                  "metodos": [
+                    "registrarInicio  ·  Registrar al inicio",
+                    "registrarFinal  ·  Registrar al final",
+                    "insertarEnPosicion  ·  Insertar en una posicion",
+                    "insertarDespuesDe  ·  Insertar despues de un paciente",
+                    "atenderSiguiente  ·  Atender al siguiente",
+                    "cancelarTurno  ·  Cancelar turno por codigo",
+                    "eliminarPrimero  ·  Eliminar el primer turno",
+                    "eliminarUltimo  ·  Eliminar el ultimo turno",
+                    "reprogramar  ·  Reprogramar paciente",
+                    "buscar  ·  Buscar por codigo",
+                    "mostrarPendientes  ·  Mostrar pendientes",
+                    "cantidad  ·  Cantidad de pacientes",
+                    "proximo  ·  Proximo paciente",
+                    "ordenarPorTurno  ·  Ordenar por numero de turno",
+                    "intercambiar  ·  Intercambiar dos pacientes",
+                    "modificar  ·  Modificar paciente",
+                    "menu  ·  Menu principal (0. Salir)"
                   ]
                 }
               ]
