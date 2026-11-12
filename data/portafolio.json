@@ -674,6 +674,56 @@
                   "archivo": "Proyecto04.png"
                 }
               ]
+            },
+            {
+              "id": "u3-semana-10",
+              "numero": 10,
+              "badge": "Semana 10",
+              "titulo": "Tema: Listas simplemente enlazadas",
+              "tema": "Listas simplemente enlazadas: insertar, eliminar, buscar, ordenar e intercambiar nodos",
+              "descripcion": "Entregas de la semana: 17 infografias (16 metodos + menu) y codigo fuente Java en proyecto NetBeans.",
+              "resumenChatbot": "Semana 10 de Algoritmos: Listas simplemente enlazadas. Proyecto NetBeans CSemana10 con DAO/CListaSE, Modelo/Alumno, Modelo/CNodo, Vista/MenuOpciones y Vista/Principal. Menu de 16 operaciones: insertar al inicio, al final, en posicion X y por referencia; eliminar al inicio, al final, en posicion X y por referencia (codigo); buscar, mostrar, ordenar por codigo y por promedio, intercambiar, cantidad, modificar y verificar lista vacia. 17 infografias con diagramas de nodos. Version sacijim Java 11, codigo en Semana10_sacijim.zip.",
+              "explicacionTecnica": "Version sacijim Java 11: la lista usa el puntero p al primer nodo y CNodo(dato, sig). Inserta con nuevo.setSig(...) y luego el anterior apunta al nuevo; elimina haciendo que el anterior salte el nodo (ant.setSig(q.getSig())). contarNodos recorre la lista, los ordenamientos usan burbuja intercambiando los datos de nodos vecinos y el menu usa switch clasico con validacion por try/catch.",
+              "abierta": true,
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana10-algoritmos/",
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — proyecto NetBeans CSemana10",
+                  "subtitulo": "Semana10_sacijim.zip · GitHub",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana10-algoritmos",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana10-algoritmos/Semana10_sacijim.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Enunciado 01",
+                  "tema": "Sistema de gestion de alumnos con lista simplemente enlazada",
+                  "explicacion": "Lista simplemente enlazada de alumnos (proyecto NetBeans CSemana10 con paquetes DAO, Modelo y Vista): insercion al inicio, al final, en posicion X y por referencia; eliminacion con los mismos cuatro casos; busqueda, recorrido, ordenamiento por codigo y por promedio, intercambio, tamano, modificacion y verificacion de lista vacia. Cada infografia dibuja los nodos [dato | enlace] y como cambian sus enlaces.",
+                  "metodos": [
+                    "insertarInicio  ·  Insertar al inicio",
+                    "insertarFinal  ·  Insertar al final",
+                    "insertarPosicion  ·  Insertar en posicion X",
+                    "insertarReferencia  ·  Insertar por referencia",
+                    "eliminarInicio  ·  Eliminar al inicio",
+                    "eliminarFinal  ·  Eliminar al final",
+                    "eliminarPosicion  ·  Eliminar en posicion X",
+                    "eliminarReferencia  ·  Eliminar por referencia",
+                    "buscarPosicion  ·  Buscar por codigo",
+                    "mostrar  ·  Mostrar todos",
+                    "ordenarPorCodigo  ·  Ordenar por codigo",
+                    "ordenarPorPromedio  ·  Ordenar por promedio",
+                    "intercambiar  ·  Intercambiar dos alumnos",
+                    "contarNodos  ·  Cantidad de alumnos",
+                    "modificar  ·  Modificar datos",
+                    "estaVacia  ·  Verificar si esta vacia",
+                    "menu  ·  Menu principal (0. Salir)"
+                  ]
+                }
+              ]
             }
           ]
         },
