@@ -141,6 +141,31 @@
         '</div>';
     }
 
+    // Semana con varios proyectos: un grupo desplegable por proyecto con sus archivos e imágenes
+    if (Array.isArray(semana.proyectos) && semana.proyectos.length > 0) {
+      var proyectosHtml = semana.proyectos.map(function (p, idx) {
+        var imagenes = Array.isArray(p.items) ? p.items : [];
+        var archivos = Array.isArray(p.archivos) ? p.archivos : [];
+        var total = archivos.length + imagenes.length;
+        var pId = semana.id + '-' + (p.id || ('p' + (idx + 1)));
+        return (
+          '<details class="exercise-group"' + (p.abierto ? ' open' : '') + ' id="' + escapeHtml(pId) + '">' +
+            '<summary class="exercise-group__header">' +
+              '<span class="exercise-group__title">' + escapeHtml(p.titulo) + '</span>' +
+              '<span class="exercise-group__count">' + escapeHtml(total + ' archivos') + '</span>' +
+              '<svg class="exercise-group__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9" /></svg>' +
+            '</summary>' +
+            (p.descripcion ? '<p class="card__desc">' + escapeHtml(p.descripcion) + '</p>' : '') +
+            '<div class="file-list" aria-label="Archivos de ' + escapeHtml(p.titulo) + '">' +
+              imagenes.map(function (it) { return renderImageFileItem(it, baseUrl); }).join('') +
+              archivos.map(renderAttachmentFileItem).join('') +
+            '</div>' +
+          '</details>'
+        );
+      }).join('');
+      innerHtml += '<div class="exercise-list" aria-label="Proyectos de la semana ' + escapeHtml(semana.numero) + '">' + proyectosHtml + '</div>';
+    }
+
     if (Array.isArray(semana.ejercicios) && semana.ejercicios.length > 0) {
       var groupsHtml = semana.ejercicios.map(function (ej, idx) {
         var resolvedItems = expandExerciseItems(semana, ej);
