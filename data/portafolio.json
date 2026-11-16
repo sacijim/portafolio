@@ -810,6 +810,74 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "u3-semana-12",
+              "numero": 12,
+              "badge": "Semana 12",
+              "titulo": "Tema: Listas doblemente enlazadas",
+              "tema": "Listas doblemente enlazadas: gestion de alumnos y citas medicas",
+              "descripcion": "Entregas de la semana: 28 infografias (Proyecto 01: 17 y Proyecto 02: 11) y codigo fuente de ambos proyectos en NetBeans.",
+              "resumenChatbot": "Semana 12 de Algoritmos: Listas doblemente enlazadas (cada nodo tiene anterior, dato y siguiente; la lista guarda cabeza, cola y tamano). Proyecto 01: gestion de alumnos con 17 operaciones (insertar al inicio, al final, por posicion y despues de un alumno; recorrer en ambos sentidos; buscar por codigo y por posicion; eliminar al inicio, al final, por posicion y por codigo; ordenar por promedio; intercambiar; modificar; tamano; lista vacia). Proyecto 02: citas medicas con 11 operaciones (registrar, insertar, buscar por codigo o DNI, modificar, cancelar, mostrar adelante e inverso, ordenar por fecha y hora, citas de un medico, atender y contabilizar). 28 infografias con la entrada y salida de la consola. Version sacijim Java 11, codigo en Semana12_sacijim.zip.",
+              "explicacionTecnica": "Version sacijim Java 11: ClistaDoble con cabeza, cola y tamano; las posiciones se cuentan desde 0 y obtenerNodo entra por la cabeza o por la cola segun cual este mas cerca. ListaCitas registra al final con la cola, recorre en ambos sentidos y ordena por fecha y hora con burbuja.",
+              "abierta": true,
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana12-algoritmos/",
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — Proyectos 01 y 02 (NetBeans)",
+                  "subtitulo": "Semana12_sacijim.zip",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana12-algoritmos/Semana12_sacijim.zip",
+                  "descargarTexto": "Descargar .zip",
+                  "descargarNombre": "Semana12_sacijim.zip"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Proyecto 01 (Gestion de alumnos)",
+                  "tema": "Sistema de gestion de alumnos con lista doblemente enlazada",
+                  "explicacion": "Proyecto NetBeans CSemana12 (DAO/ClistaDoble, Modelo/Alumno, Modelo/Nodo, Vista/MenuOpciones, Vista/Principal). Cada infografia dibuja los nodos [anterior | dato | siguiente] con cabeza, cola y null en ambos extremos, y la entrada y salida real de la consola.",
+                  "metodos": [
+                    "insertarInicio  ·  Insertar al inicio",
+                    "insertarFinal  ·  Insertar al final",
+                    "insertarPosicion  ·  Insertar por posicion",
+                    "insertarDespuesDe  ·  Insertar despues de un alumno",
+                    "recorrerAdelante  ·  Mostrar de izquierda a derecha",
+                    "recorrerAtras  ·  Mostrar de derecha a izquierda",
+                    "buscarPorCodigo  ·  Buscar por codigo",
+                    "buscarPosicion  ·  Buscar por posicion",
+                    "eliminarInicio  ·  Eliminar al inicio",
+                    "eliminarFinal  ·  Eliminar al final",
+                    "eliminarPosicion  ·  Eliminar por posicion",
+                    "eliminarPorCodigo  ·  Eliminar por codigo",
+                    "ordenarPorPromedio  ·  Ordenar por promedio",
+                    "intercambiar  ·  Intercambiar alumnos",
+                    "modificarAlumno  ·  Modificar alumno",
+                    "obtenerTamaño  ·  Tamanio de la lista",
+                    "estaVacia  ·  Verificar si esta vacia"
+                  ]
+                },
+                {
+                  "numero": "02",
+                  "titulo": "Proyecto 02 (Citas medicas)",
+                  "tema": "Sistema de gestion de citas medicas con lista doblemente enlazada",
+                  "explicacion": "Proyecto NetBeans SistemaCitas (Modelo/CitaMedica, Modelo/Nodo, DAO/ListaCitas, Vista). Registrar, insertar, buscar por codigo o DNI, modificar, cancelar, recorrer en ambos sentidos, ordenar por fecha y hora, citas por medico, atender y contabilizar.",
+                  "metodos": [
+                    "registrarCita  ·  Registrar cita",
+                    "insertarEnPosicion  ·  Insertar en una posicion",
+                    "buscar  ·  Buscar por codigo o DNI",
+                    "modificar  ·  Modificar cita",
+                    "eliminarCita  ·  Cancelar y eliminar cita",
+                    "mostrarAdelante  ·  Mostrar de la primera a la ultima",
+                    "mostrarAtras  ·  Mostrar en orden inverso",
+                    "ordenarPorFechaHora  ·  Ordenar por fecha y hora",
+                    "buscarPorMedico  ·  Citas de un medico",
+                    "marcarAtendida  ·  Marcar cita como atendida",
+                    "contabilizar  ·  Contabilizar citas"
+                  ]
+                }
+              ]
             }
           ]
         },
