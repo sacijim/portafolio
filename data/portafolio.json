@@ -1115,8 +1115,582 @@
           "dot": "U3",
           "titulo": "Unidad 3",
           "meta": "Semanas 9 a 12",
-          "abierta": false,
-          "semanas": []
+          "abierta": true,
+          "semanas": [
+            {
+              "id": "u3-semana-9",
+              "numero": 9,
+              "badge": "Semana 9",
+              "titulo": "Proyectos con React: 4 aplicaciones web",
+              "tema": "Componentes, props, hooks personalizados, CSS Modules y CRUD en memoria",
+              "descripcion": "Código de las cuatro aplicaciones React + Vite, informes en PDF y Word, manual de instalación, diseños para Figma e infografías.",
+              "resumenChatbot": "Semana 9 de Taller: cuatro aplicaciones React + Vite con datos en memoria: Aula Viva (notas por tipo de evaluación y estudiantes en riesgo), FarmaVida (inventario de botica con stock mínimo por producto e historial de movimientos), Dulce Huanca (pastelería con carrito lateral, descuentos de 8% y 15% y delivery) y Bella Studio (salón de belleza con agenda por días y registro de clientas).",
+              "explicacionTecnica": "La lógica de datos vive en hooks personalizados (useEstudiantes, useInventario, useCarrito, useReservas) y los componentes usan CSS Modules. Se aplican map, filter, reduce, find, some y sort sin mutar el estado; formularios en ventanas modales con validaciones. Probado con Playwright en escritorio y en celular.",
+              "abierta": true,
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Código React + Vite — 4 proyectos",
+                  "subtitulo": "Semana09_React_codigo_Maricielo.zip · GitHub Releases",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/Semana09_React_codigo_Maricielo.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "FIG",
+                  "titulo": "Diseños para Figma (SVG editables)",
+                  "subtitulo": "Semana09_Disenos_Figma_Maricielo.zip · escritorio, móvil y guía de estilos",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/Semana09_Disenos_Figma_Maricielo.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Informe Proyecto 01: Aula Viva",
+                  "subtitulo": "Sistema de Gestión Académica · PDF y Word",
+                  "verUrl": "pdfs/S09_Informe-Proyecto01-AulaViva.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/S09_Informe-Proyecto01-AulaViva.docx",
+                  "descargarNombre": "S09_Informe-Proyecto01-AulaViva.docx",
+                  "descargarTexto": "Descargar Word"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Informe Proyecto 02: FarmaVida",
+                  "subtitulo": "Sistema de Control de Inventario · PDF y Word",
+                  "verUrl": "pdfs/S09_Informe-Proyecto02-FarmaVida.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/S09_Informe-Proyecto02-FarmaVida.docx",
+                  "descargarNombre": "S09_Informe-Proyecto02-FarmaVida.docx",
+                  "descargarTexto": "Descargar Word"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Informe Proyecto 03: Dulce Huanca",
+                  "subtitulo": "Sistema de Ventas con Carrito de Compras · PDF y Word",
+                  "verUrl": "pdfs/S09_Informe-Proyecto03-DulceHuanca.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/S09_Informe-Proyecto03-DulceHuanca.docx",
+                  "descargarNombre": "S09_Informe-Proyecto03-DulceHuanca.docx",
+                  "descargarTexto": "Descargar Word"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Informe Proyecto 04: Bella Studio",
+                  "subtitulo": "Sistema de Reservas y Citas · PDF y Word",
+                  "verUrl": "pdfs/S09_Informe-Proyecto04-BellaStudio.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/S09_Informe-Proyecto04-BellaStudio.docx",
+                  "descargarNombre": "S09_Informe-Proyecto04-BellaStudio.docx",
+                  "descargarTexto": "Descargar Word"
+                },
+                {
+                  "icono": "PDF",
+                  "titulo": "Manual de instalación React + Vite",
+                  "subtitulo": "Node.js, VS Code, Vite y ejecución de los 4 proyectos",
+                  "verUrl": "pdfs/S09_Manual-Instalacion-Cerron.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/S09_Manual-Instalacion-Cerron.docx",
+                  "descargarNombre": "S09_Manual-Instalacion-Cerron.docx",
+                  "descargarTexto": "Descargar Word"
+                }
+              ],
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/",
+              "items": [
+                {
+                  "archivo": "S09_Infografia-Proyecto01-AulaViva.png",
+                  "titulo": "Infografía Proyecto 01: Aula Viva",
+                  "subtitulo": "Sistema de Gestión Académica",
+                  "alt": "Infografía del proyecto Aula Viva"
+                },
+                {
+                  "archivo": "S09_Infografia-Proyecto02-FarmaVida.png",
+                  "titulo": "Infografía Proyecto 02: FarmaVida",
+                  "subtitulo": "Sistema de Control de Inventario",
+                  "alt": "Infografía del proyecto FarmaVida"
+                },
+                {
+                  "archivo": "S09_Infografia-Proyecto03-DulceHuanca.png",
+                  "titulo": "Infografía Proyecto 03: Dulce Huanca",
+                  "subtitulo": "Sistema de Ventas con Carrito de Compras",
+                  "alt": "Infografía del proyecto Dulce Huanca"
+                },
+                {
+                  "archivo": "S09_Infografia-Proyecto04-BellaStudio.png",
+                  "titulo": "Infografía Proyecto 04: Bella Studio",
+                  "subtitulo": "Sistema de Reservas y Citas",
+                  "alt": "Infografía del proyecto Bella Studio"
+                }
+              ]
+            },
+            {
+              "id": "u3-semana-10",
+              "numero": 10,
+              "badge": "Semana 10",
+              "titulo": "Ruta Full-Stack: 55 lecciones en infografías",
+              "tema": "Java JDK, NetBeans, Maven, Tomcat, Spring Boot, React, MySQL y Docker",
+              "descripcion": "Curso 'Ruta Full-Stack: de cero a tu Campus Virtual en producción' en 56 infografías: mapa del curso y una por lección, agrupadas por etapa.",
+              "resumenChatbot": "Semana 10 de Taller: 56 infografías (mapa + 55 lecciones) del curso 'Ruta Full-Stack: de cero a tu Campus Virtual en producción'. Siete etapas: preparar el taller, pensar los datos en MySQL, Java para principiantes, backend con Spring Boot (JPA, paginación, subida de imágenes, Spring Security, JWT con roles, JUnit 5), Tomcat, frontend con React y producción con Docker, Nginx y certificados verificables. Referencia: plataformaacademy.tech.",
+              "explicacionTecnica": "Cada infografía incluye objetivo, analogía de cocina, biblioteca o mercado, palabras clave, paso a paso, código real (MySQL 8, Java 21, Spring Boot 3, axios, React Router 7, Dockerfile multi-etapa y docker compose), un error común, un consejo y un reto aplicado al proyecto campus-virtual.",
+              "abierta": false,
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Las 56 infografías en un solo archivo",
+                  "subtitulo": "Semana10_Infografias_Maricielo.zip · GitHub Release",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana10-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana10-taller/Semana10_Infografias_Maricielo.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ],
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana10-taller/",
+              "ejercicios": [
+                {
+                  "numero": "00",
+                  "titulo": "Mapa del curso",
+                  "abierto": true,
+                  "items": [
+                    {
+                      "archivo": "S10_00-indice-del-curso.png",
+                      "titulo": "Mapa del curso",
+                      "subtitulo": "Las 55 lecciones por etapa",
+                      "alt": "Mapa del curso"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E1",
+                  "titulo": "E1 · Preparar el taller",
+                  "items": [
+                    {
+                      "archivo": "S10_01-bienvenida-recorrido-por-la-plataforma-que-vamos.png",
+                      "titulo": "Lección 01",
+                      "subtitulo": "Bienvenida: recorrido por la plataforma que vamos a construir",
+                      "alt": "Infografía lección 1",
+                      "lightboxTitle": "Semana 10 · Lección 01: Bienvenida: recorrido por la plataforma que vamos a construir"
+                    },
+                    {
+                      "archivo": "S10_02-frontend-backend-y-base-de-datos-explicados-con-.png",
+                      "titulo": "Lección 02",
+                      "subtitulo": "Frontend, backend y base de datos explicados con un restaurante",
+                      "alt": "Infografía lección 2",
+                      "lightboxTitle": "Semana 10 · Lección 02: Frontend, backend y base de datos explicados con un restaurante"
+                    },
+                    {
+                      "archivo": "S10_03-jdk-instalar-el-motor-de-java.png",
+                      "titulo": "Lección 03",
+                      "subtitulo": "JDK: instalar el motor de Java",
+                      "alt": "Infografía lección 3",
+                      "lightboxTitle": "Semana 10 · Lección 03: JDK: instalar el motor de Java"
+                    },
+                    {
+                      "archivo": "S10_04-netbeans-tu-mesa-de-trabajo.png",
+                      "titulo": "Lección 04",
+                      "subtitulo": "NetBeans: tu mesa de trabajo",
+                      "alt": "Infografía lección 4",
+                      "lightboxTitle": "Semana 10 · Lección 04: NetBeans: tu mesa de trabajo"
+                    },
+                    {
+                      "archivo": "S10_05-maven-la-lista-de-compras-del-proyecto.png",
+                      "titulo": "Lección 05",
+                      "subtitulo": "Maven: la lista de compras del proyecto",
+                      "alt": "Infografía lección 5",
+                      "lightboxTitle": "Semana 10 · Lección 05: Maven: la lista de compras del proyecto"
+                    },
+                    {
+                      "archivo": "S10_06-mysql-y-workbench-el-archivador-de-la-academia.png",
+                      "titulo": "Lección 06",
+                      "subtitulo": "MySQL y Workbench: el archivador de la academia",
+                      "alt": "Infografía lección 6",
+                      "lightboxTitle": "Semana 10 · Lección 06: MySQL y Workbench: el archivador de la academia"
+                    },
+                    {
+                      "archivo": "S10_07-node-js-npm-y-vs-code-para-el-frontend.png",
+                      "titulo": "Lección 07",
+                      "subtitulo": "Node.js, npm y VS Code para el frontend",
+                      "alt": "Infografía lección 7",
+                      "lightboxTitle": "Semana 10 · Lección 07: Node.js, npm y VS Code para el frontend"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E2",
+                  "titulo": "E2 · Pensar los datos",
+                  "items": [
+                    {
+                      "archivo": "S10_08-que-es-una-base-de-datos-relacional.png",
+                      "titulo": "Lección 08",
+                      "subtitulo": "¿Qué es una base de datos relacional?",
+                      "alt": "Infografía lección 8",
+                      "lightboxTitle": "Semana 10 · Lección 08: ¿Qué es una base de datos relacional?"
+                    },
+                    {
+                      "archivo": "S10_09-diagrama-entidad-relacion-del-campus.png",
+                      "titulo": "Lección 09",
+                      "subtitulo": "Diagrama entidad-relación del campus",
+                      "alt": "Infografía lección 9",
+                      "lightboxTitle": "Semana 10 · Lección 09: Diagrama entidad-relación del campus"
+                    },
+                    {
+                      "archivo": "S10_10-tipos-de-datos-en-mysql.png",
+                      "titulo": "Lección 10",
+                      "subtitulo": "Tipos de datos en MySQL",
+                      "alt": "Infografía lección 10",
+                      "lightboxTitle": "Semana 10 · Lección 10: Tipos de datos en MySQL"
+                    },
+                    {
+                      "archivo": "S10_11-crear-campus-db-y-la-tabla-de-usuarios.png",
+                      "titulo": "Lección 11",
+                      "subtitulo": "Crear campus_db y la tabla de usuarios",
+                      "alt": "Infografía lección 11",
+                      "lightboxTitle": "Semana 10 · Lección 11: Crear campus_db y la tabla de usuarios"
+                    },
+                    {
+                      "archivo": "S10_12-tablas-de-categorias-cursos-y-lecciones.png",
+                      "titulo": "Lección 12",
+                      "subtitulo": "Tablas de categorías, cursos y lecciones",
+                      "alt": "Infografía lección 12",
+                      "lightboxTitle": "Semana 10 · Lección 12: Tablas de categorías, cursos y lecciones"
+                    },
+                    {
+                      "archivo": "S10_13-relaciones-e-integridad-referencial.png",
+                      "titulo": "Lección 13",
+                      "subtitulo": "Relaciones e integridad referencial",
+                      "alt": "Infografía lección 13",
+                      "lightboxTitle": "Semana 10 · Lección 13: Relaciones e integridad referencial"
+                    },
+                    {
+                      "archivo": "S10_14-consultas-con-filtros-orden-y-limites.png",
+                      "titulo": "Lección 14",
+                      "subtitulo": "Consultas con filtros, orden y límites",
+                      "alt": "Infografía lección 14",
+                      "lightboxTitle": "Semana 10 · Lección 14: Consultas con filtros, orden y límites"
+                    },
+                    {
+                      "archivo": "S10_15-join-y-group-by-cursos-por-categoria.png",
+                      "titulo": "Lección 15",
+                      "subtitulo": "JOIN y GROUP BY: cursos por categoría",
+                      "alt": "Infografía lección 15",
+                      "lightboxTitle": "Semana 10 · Lección 15: JOIN y GROUP BY: cursos por categoría"
+                    },
+                    {
+                      "archivo": "S10_16-indices-y-copias-de-seguridad-con-mysqldump.png",
+                      "titulo": "Lección 16",
+                      "subtitulo": "Índices y copias de seguridad con mysqldump",
+                      "alt": "Infografía lección 16",
+                      "lightboxTitle": "Semana 10 · Lección 16: Índices y copias de seguridad con mysqldump"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E3",
+                  "titulo": "E3 · Java para principiantes",
+                  "items": [
+                    {
+                      "archivo": "S10_17-sintaxis-basica-tu-primer-programa.png",
+                      "titulo": "Lección 17",
+                      "subtitulo": "Sintaxis básica: tu primer programa",
+                      "alt": "Infografía lección 17",
+                      "lightboxTitle": "Semana 10 · Lección 17: Sintaxis básica: tu primer programa"
+                    },
+                    {
+                      "archivo": "S10_18-variables-tipos-y-cadenas-de-texto-string.png",
+                      "titulo": "Lección 18",
+                      "subtitulo": "Variables, tipos y cadenas de texto (String)",
+                      "alt": "Infografía lección 18",
+                      "lightboxTitle": "Semana 10 · Lección 18: Variables, tipos y cadenas de texto (String)"
+                    },
+                    {
+                      "archivo": "S10_19-decisiones-con-if-y-switch.png",
+                      "titulo": "Lección 19",
+                      "subtitulo": "Decisiones con if y switch",
+                      "alt": "Infografía lección 19",
+                      "lightboxTitle": "Semana 10 · Lección 19: Decisiones con if y switch"
+                    },
+                    {
+                      "archivo": "S10_20-repeticiones-con-for-while-y-for-each.png",
+                      "titulo": "Lección 20",
+                      "subtitulo": "Repeticiones con for, while y for-each",
+                      "alt": "Infografía lección 20",
+                      "lightboxTitle": "Semana 10 · Lección 20: Repeticiones con for, while y for-each"
+                    },
+                    {
+                      "archivo": "S10_21-metodos-y-parametros.png",
+                      "titulo": "Lección 21",
+                      "subtitulo": "Métodos y parámetros",
+                      "alt": "Infografía lección 21",
+                      "lightboxTitle": "Semana 10 · Lección 21: Métodos y parámetros"
+                    },
+                    {
+                      "archivo": "S10_22-programacion-orientada-a-objetos-clases-y-objeto.png",
+                      "titulo": "Lección 22",
+                      "subtitulo": "Programación orientada a objetos: clases y objetos",
+                      "alt": "Infografía lección 22",
+                      "lightboxTitle": "Semana 10 · Lección 22: Programación orientada a objetos: clases y objetos"
+                    },
+                    {
+                      "archivo": "S10_23-herencia-e-interfaces.png",
+                      "titulo": "Lección 23",
+                      "subtitulo": "Herencia e interfaces",
+                      "alt": "Infografía lección 23",
+                      "lightboxTitle": "Semana 10 · Lección 23: Herencia e interfaces"
+                    },
+                    {
+                      "archivo": "S10_24-arraylist-y-hashmap.png",
+                      "titulo": "Lección 24",
+                      "subtitulo": "ArrayList y HashMap",
+                      "alt": "Infografía lección 24",
+                      "lightboxTitle": "Semana 10 · Lección 24: ArrayList y HashMap"
+                    },
+                    {
+                      "archivo": "S10_25-manejo-de-errores-con-try-catch.png",
+                      "titulo": "Lección 25",
+                      "subtitulo": "Manejo de errores con try-catch",
+                      "alt": "Infografía lección 25",
+                      "lightboxTitle": "Semana 10 · Lección 25: Manejo de errores con try-catch"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E4",
+                  "titulo": "E4 · Backend con Spring Boot",
+                  "items": [
+                    {
+                      "archivo": "S10_26-spring-initializr-y-las-dependencias-iniciales.png",
+                      "titulo": "Lección 26",
+                      "subtitulo": "Spring Initializr y las dependencias iniciales",
+                      "alt": "Infografía lección 26",
+                      "lightboxTitle": "Semana 10 · Lección 26: Spring Initializr y las dependencias iniciales"
+                    },
+                    {
+                      "archivo": "S10_27-anatomia-del-proyecto-paquetes-y-capas.png",
+                      "titulo": "Lección 27",
+                      "subtitulo": "Anatomía del proyecto: paquetes y capas",
+                      "alt": "Infografía lección 27",
+                      "lightboxTitle": "Semana 10 · Lección 27: Anatomía del proyecto: paquetes y capas"
+                    },
+                    {
+                      "archivo": "S10_28-hola-mundo-rest-y-el-formato-json.png",
+                      "titulo": "Lección 28",
+                      "subtitulo": "Hola mundo REST y el formato JSON",
+                      "alt": "Infografía lección 28",
+                      "lightboxTitle": "Semana 10 · Lección 28: Hola mundo REST y el formato JSON"
+                    },
+                    {
+                      "archivo": "S10_29-conectar-spring-boot-con-mysql.png",
+                      "titulo": "Lección 29",
+                      "subtitulo": "Conectar Spring Boot con MySQL",
+                      "alt": "Infografía lección 29",
+                      "lightboxTitle": "Semana 10 · Lección 29: Conectar Spring Boot con MySQL"
+                    },
+                    {
+                      "archivo": "S10_30-entidades-categoria-y-curso-con-jpa.png",
+                      "titulo": "Lección 30",
+                      "subtitulo": "Entidades Categoria y Curso con JPA",
+                      "alt": "Infografía lección 30",
+                      "lightboxTitle": "Semana 10 · Lección 30: Entidades Categoria y Curso con JPA"
+                    },
+                    {
+                      "archivo": "S10_31-repository-consultas-por-nombre-de-metodo.png",
+                      "titulo": "Lección 31",
+                      "subtitulo": "Repository: consultas por nombre de método",
+                      "alt": "Infografía lección 31",
+                      "lightboxTitle": "Semana 10 · Lección 31: Repository: consultas por nombre de método"
+                    },
+                    {
+                      "archivo": "S10_32-service-las-reglas-del-negocio.png",
+                      "titulo": "Lección 32",
+                      "subtitulo": "Service: las reglas del negocio",
+                      "alt": "Infografía lección 32",
+                      "lightboxTitle": "Semana 10 · Lección 32: Service: las reglas del negocio"
+                    },
+                    {
+                      "archivo": "S10_33-controller-endpoints-rest-de-cursos.png",
+                      "titulo": "Lección 33",
+                      "subtitulo": "Controller: endpoints REST de cursos",
+                      "alt": "Infografía lección 33",
+                      "lightboxTitle": "Semana 10 · Lección 33: Controller: endpoints REST de cursos"
+                    },
+                    {
+                      "archivo": "S10_34-probar-los-endpoints-con-postman.png",
+                      "titulo": "Lección 34",
+                      "subtitulo": "Probar los endpoints con Postman",
+                      "alt": "Infografía lección 34",
+                      "lightboxTitle": "Semana 10 · Lección 34: Probar los endpoints con Postman"
+                    },
+                    {
+                      "archivo": "S10_35-validaciones-con-bean-validation.png",
+                      "titulo": "Lección 35",
+                      "subtitulo": "Validaciones con Bean Validation",
+                      "alt": "Infografía lección 35",
+                      "lightboxTitle": "Semana 10 · Lección 35: Validaciones con Bean Validation"
+                    },
+                    {
+                      "archivo": "S10_36-paginacion-y-busqueda-de-cursos.png",
+                      "titulo": "Lección 36",
+                      "subtitulo": "Paginación y búsqueda de cursos",
+                      "alt": "Infografía lección 36",
+                      "lightboxTitle": "Semana 10 · Lección 36: Paginación y búsqueda de cursos"
+                    },
+                    {
+                      "archivo": "S10_37-subir-imagenes-de-portada.png",
+                      "titulo": "Lección 37",
+                      "subtitulo": "Subir imágenes de portada",
+                      "alt": "Infografía lección 37",
+                      "lightboxTitle": "Semana 10 · Lección 37: Subir imágenes de portada"
+                    },
+                    {
+                      "archivo": "S10_38-spring-security-registro-de-estudiantes.png",
+                      "titulo": "Lección 38",
+                      "subtitulo": "Spring Security: registro de estudiantes",
+                      "alt": "Infografía lección 38",
+                      "lightboxTitle": "Semana 10 · Lección 38: Spring Security: registro de estudiantes"
+                    },
+                    {
+                      "archivo": "S10_39-jwt-y-roles-admin-y-estudiante.png",
+                      "titulo": "Lección 39",
+                      "subtitulo": "JWT y roles: ADMIN y ESTUDIANTE",
+                      "alt": "Infografía lección 39",
+                      "lightboxTitle": "Semana 10 · Lección 39: JWT y roles: ADMIN y ESTUDIANTE"
+                    },
+                    {
+                      "archivo": "S10_40-pruebas-unitarias-con-junit-5.png",
+                      "titulo": "Lección 40",
+                      "subtitulo": "Pruebas unitarias con JUnit 5",
+                      "alt": "Infografía lección 40",
+                      "lightboxTitle": "Semana 10 · Lección 40: Pruebas unitarias con JUnit 5"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E5",
+                  "titulo": "E5 · Tomcat por dentro",
+                  "items": [
+                    {
+                      "archivo": "S10_41-que-hace-tomcat-dentro-de-spring-boot.png",
+                      "titulo": "Lección 41",
+                      "subtitulo": "Qué hace Tomcat dentro de Spring Boot",
+                      "alt": "Infografía lección 41",
+                      "lightboxTitle": "Semana 10 · Lección 41: Qué hace Tomcat dentro de Spring Boot"
+                    },
+                    {
+                      "archivo": "S10_42-generar-un-war-y-publicarlo-en-tomcat-10.png",
+                      "titulo": "Lección 42",
+                      "subtitulo": "Generar un WAR y publicarlo en Tomcat 10",
+                      "alt": "Infografía lección 42",
+                      "lightboxTitle": "Semana 10 · Lección 42: Generar un WAR y publicarlo en Tomcat 10"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E6",
+                  "titulo": "E6 · Frontend con React",
+                  "items": [
+                    {
+                      "archivo": "S10_43-proyecto-react-con-vite-y-su-estructura.png",
+                      "titulo": "Lección 43",
+                      "subtitulo": "Proyecto React con Vite y su estructura",
+                      "alt": "Infografía lección 43",
+                      "lightboxTitle": "Semana 10 · Lección 43: Proyecto React con Vite y su estructura"
+                    },
+                    {
+                      "archivo": "S10_44-jsx-y-componentes-navbar-y-footer.png",
+                      "titulo": "Lección 44",
+                      "subtitulo": "JSX y componentes: Navbar y Footer",
+                      "alt": "Infografía lección 44",
+                      "lightboxTitle": "Semana 10 · Lección 44: JSX y componentes: Navbar y Footer"
+                    },
+                    {
+                      "archivo": "S10_45-props-tarjeta-de-curso-reutilizable.png",
+                      "titulo": "Lección 45",
+                      "subtitulo": "Props: tarjeta de curso reutilizable",
+                      "alt": "Infografía lección 45",
+                      "lightboxTitle": "Semana 10 · Lección 45: Props: tarjeta de curso reutilizable"
+                    },
+                    {
+                      "archivo": "S10_46-estado-y-eventos-buscador-de-cursos.png",
+                      "titulo": "Lección 46",
+                      "subtitulo": "Estado y eventos: buscador de cursos",
+                      "alt": "Infografía lección 46",
+                      "lightboxTitle": "Semana 10 · Lección 46: Estado y eventos: buscador de cursos"
+                    },
+                    {
+                      "archivo": "S10_47-consumir-la-api-con-axios-y-useeffect.png",
+                      "titulo": "Lección 47",
+                      "subtitulo": "Consumir la API con axios y useEffect",
+                      "alt": "Infografía lección 47",
+                      "lightboxTitle": "Semana 10 · Lección 47: Consumir la API con axios y useEffect"
+                    },
+                    {
+                      "archivo": "S10_48-navegacion-con-react-router.png",
+                      "titulo": "Lección 48",
+                      "subtitulo": "Navegación con React Router",
+                      "alt": "Infografía lección 48",
+                      "lightboxTitle": "Semana 10 · Lección 48: Navegación con React Router"
+                    },
+                    {
+                      "archivo": "S10_49-login-con-contexto-de-autenticacion-y-token.png",
+                      "titulo": "Lección 49",
+                      "subtitulo": "Login con contexto de autenticación y token",
+                      "alt": "Infografía lección 49",
+                      "lightboxTitle": "Semana 10 · Lección 49: Login con contexto de autenticación y token"
+                    },
+                    {
+                      "archivo": "S10_50-panel-del-estudiante-mis-cursos-y-progreso.png",
+                      "titulo": "Lección 50",
+                      "subtitulo": "Panel del estudiante: mis cursos y progreso",
+                      "alt": "Infografía lección 50",
+                      "lightboxTitle": "Semana 10 · Lección 50: Panel del estudiante: mis cursos y progreso"
+                    },
+                    {
+                      "archivo": "S10_51-panel-del-administrador-gestionar-cursos.png",
+                      "titulo": "Lección 51",
+                      "subtitulo": "Panel del administrador: gestionar cursos",
+                      "alt": "Infografía lección 51",
+                      "lightboxTitle": "Semana 10 · Lección 51: Panel del administrador: gestionar cursos"
+                    }
+                  ]
+                },
+                {
+                  "numero": "E7",
+                  "titulo": "E7 · Producción",
+                  "items": [
+                    {
+                      "archivo": "S10_52-variables-de-entorno-y-perfiles-dev-prod.png",
+                      "titulo": "Lección 52",
+                      "subtitulo": "Variables de entorno y perfiles dev / prod",
+                      "alt": "Infografía lección 52",
+                      "lightboxTitle": "Semana 10 · Lección 52: Variables de entorno y perfiles dev / prod"
+                    },
+                    {
+                      "archivo": "S10_53-docker-si-o-no-ventajas-en-este-stack.png",
+                      "titulo": "Lección 53",
+                      "subtitulo": "¿Docker sí o no? Ventajas en este stack",
+                      "alt": "Infografía lección 53",
+                      "lightboxTitle": "Semana 10 · Lección 53: ¿Docker sí o no? Ventajas en este stack"
+                    },
+                    {
+                      "archivo": "S10_54-dockerizar-dockerfile-docker-compose-mysql-y-ngi.png",
+                      "titulo": "Lección 54",
+                      "subtitulo": "Dockerizar: Dockerfile, docker-compose, MySQL y Nginx",
+                      "alt": "Infografía lección 54",
+                      "lightboxTitle": "Semana 10 · Lección 54: Dockerizar: Dockerfile, docker-compose, MySQL y Nginx"
+                    },
+                    {
+                      "archivo": "S10_55-publicar-en-la-nube-y-verificar-certificados-en-.png",
+                      "titulo": "Lección 55",
+                      "subtitulo": "Publicar en la nube y verificar certificados en línea",
+                      "alt": "Infografía lección 55",
+                      "lightboxTitle": "Semana 10 · Lección 55: Publicar en la nube y verificar certificados en línea"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "unidad-4",
