@@ -1118,38 +1118,20 @@
           "abierta": true,
           "semanas": [
             {
-              "id": "u3-semana-9",
-              "numero": 9,
-              "badge": "Semana 9",
-              "titulo": "Proyectos con React: 4 aplicaciones web",
-              "tema": "Componentes, props, hooks personalizados, CSS Modules y CRUD en memoria",
-              "descripcion": "Código de las cuatro aplicaciones React + Vite, informes en PDF y Word, manual de instalación, diseños para Figma e infografías.",
-              "resumenChatbot": "Semana 9 de Taller: cuatro aplicaciones React + Vite con datos en memoria: Aula Viva (notas por tipo de evaluación y estudiantes en riesgo), FarmaVida (inventario de botica con stock mínimo por producto e historial de movimientos), Dulce Huanca (pastelería con carrito lateral, descuentos de 8% y 15% y delivery) y Bella Studio (salón de belleza con agenda por días y registro de clientas).",
-              "explicacionTecnica": "La lógica de datos vive en hooks personalizados (useEstudiantes, useInventario, useCarrito, useReservas) y los componentes usan CSS Modules. Se aplican map, filter, reduce, find, some y sort sin mutar el estado; formularios en ventanas modales con validaciones. Probado con Playwright en escritorio y en celular.",
+              "id": "u3-semana-9-p01",
+              "numero": "9-p01",
+              "badge": "Semana 9 · P01",
+              "titulo": "Proyecto 01: Aula Viva",
+              "tema": "Sistema de Gestión Académica con React + Vite",
+              "descripcion": "Sistema de Gestión Académica. Seguimiento de notas para Ciencias de la Salud. Infografía, informe, código y diseño para Figma de este proyecto.",
+              "resumenChatbot": "Semana 09 de Taller, Proyecto 01 (Sistema de Gestión Académica): Aula Viva. Una aplicación para matricular estudiantes, buscarlos por código o nombre, filtrarlos por carrera y registrar cada evaluación con su tipo. El panel de notas calcula el promedio y marca si el estudiante va aprobado o en riesgo. Incluye informe en PDF y Word, infografía, código React + Vite y diseño para Figma.",
+              "explicacionTecnica": "Componentes: App, useEstudiantes, Sidebar + StudentSummary, StudentForm (Modal), StudentSearch, StudentList / StudentItem, GradePanel. Métodos de arreglos: reduce() (promedio individual y del aula), map() (editar estudiante y agregar notas), filter() (búsqueda, carrera y eliminar), find() (estudiante con el panel abierto), some() (código repetido). Validaciones: código de 10 dígitos sin repetir; nombres y apellidos sin números ni símbolos; carrera obligatoria; nota entre 0 y 20.",
               "abierta": true,
               "archivos": [
                 {
-                  "icono": "ZIP",
-                  "titulo": "Código React + Vite — 4 proyectos",
-                  "subtitulo": "Semana09_React_codigo_Maricielo.zip · GitHub Releases",
-                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
-                  "verTexto": "Ver en GitHub",
-                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/Semana09_React_codigo_Maricielo.zip",
-                  "descargarTexto": "Descargar .zip"
-                },
-                {
-                  "icono": "FIG",
-                  "titulo": "Diseños para Figma (SVG editables)",
-                  "subtitulo": "Semana09_Disenos_Figma_Maricielo.zip · escritorio, móvil y guía de estilos",
-                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
-                  "verTexto": "Ver en GitHub",
-                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/Semana09_Disenos_Figma_Maricielo.zip",
-                  "descargarTexto": "Descargar .zip"
-                },
-                {
                   "icono": "PDF",
-                  "titulo": "Informe Proyecto 01: Aula Viva",
-                  "subtitulo": "Sistema de Gestión Académica · PDF y Word",
+                  "titulo": "Informe del Proyecto 01",
+                  "subtitulo": "S09_Informe-Proyecto01-AulaViva.pdf · también en Word",
                   "verUrl": "pdfs/S09_Informe-Proyecto01-AulaViva.pdf",
                   "verTexto": "Ver PDF",
                   "descargarUrl": "pdfs/S09_Informe-Proyecto01-AulaViva.docx",
@@ -1157,9 +1139,49 @@
                   "descargarTexto": "Descargar Word"
                 },
                 {
+                  "icono": "ZIP",
+                  "titulo": "Código React + Vite: Aula Viva",
+                  "subtitulo": "S09_P01_AulaViva_codigo.zip · npm install y npm run dev",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P01_AulaViva_codigo.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "FIG",
+                  "titulo": "Diseño para Figma (SVG editables)",
+                  "subtitulo": "S09_P01_AulaViva_figma.zip · escritorio, móvil y guía de estilos",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P01_AulaViva_figma.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ],
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/",
+              "items": [
+                {
+                  "archivo": "S09_Infografia-Proyecto01-AulaViva.png",
+                  "titulo": "Infografía Proyecto 01",
+                  "subtitulo": "Aula Viva",
+                  "alt": "Infografía del proyecto Aula Viva"
+                }
+              ]
+            },
+            {
+              "id": "u3-semana-9-p02",
+              "numero": "9-p02",
+              "badge": "Semana 9 · P02",
+              "titulo": "Proyecto 02: FarmaVida",
+              "tema": "Sistema de Control de Inventario con React + Vite",
+              "descripcion": "Sistema de Control de Inventario. Inventario de una botica con alertas por producto. Infografía, informe, código y diseño para Figma de este proyecto.",
+              "resumenChatbot": "Semana 09 de Taller, Proyecto 02 (Sistema de Control de Inventario): FarmaVida. Una aplicación que registra productos con su propio stock mínimo, organiza el inventario por pestañas de categoría, registra ingresos y salidas con historial y avisa qué productos hay que reponer. Incluye informe en PDF y Word, infografía, código React + Vite y diseño para Figma.",
+              "explicacionTecnica": "Componentes: App, useInventario, InventorySummary, ProductFilters, ProductTable, StockControl, ProductForm. Métodos de arreglos: reduce() (valor del inventario y unidades), filter() (categoría, búsqueda y alertas), sort() (ordenar por nombre, stock o precio), map() (actualizar producto o stock), some() (código de barras repetido). Validaciones: código de 6 dígitos único; precio mayor que 0; stock entero desde 0 y mínimo desde 1; salida que no deja el stock en negativo.",
+              "abierta": false,
+              "archivos": [
+                {
                   "icono": "PDF",
-                  "titulo": "Informe Proyecto 02: FarmaVida",
-                  "subtitulo": "Sistema de Control de Inventario · PDF y Word",
+                  "titulo": "Informe del Proyecto 02",
+                  "subtitulo": "S09_Informe-Proyecto02-FarmaVida.pdf · también en Word",
                   "verUrl": "pdfs/S09_Informe-Proyecto02-FarmaVida.pdf",
                   "verTexto": "Ver PDF",
                   "descargarUrl": "pdfs/S09_Informe-Proyecto02-FarmaVida.docx",
@@ -1167,9 +1189,49 @@
                   "descargarTexto": "Descargar Word"
                 },
                 {
+                  "icono": "ZIP",
+                  "titulo": "Código React + Vite: FarmaVida",
+                  "subtitulo": "S09_P02_FarmaVida_codigo.zip · npm install y npm run dev",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P02_FarmaVida_codigo.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "FIG",
+                  "titulo": "Diseño para Figma (SVG editables)",
+                  "subtitulo": "S09_P02_FarmaVida_figma.zip · escritorio, móvil y guía de estilos",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P02_FarmaVida_figma.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ],
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/",
+              "items": [
+                {
+                  "archivo": "S09_Infografia-Proyecto02-FarmaVida.png",
+                  "titulo": "Infografía Proyecto 02",
+                  "subtitulo": "FarmaVida",
+                  "alt": "Infografía del proyecto FarmaVida"
+                }
+              ]
+            },
+            {
+              "id": "u3-semana-9-p03",
+              "numero": "9-p03",
+              "badge": "Semana 9 · P03",
+              "titulo": "Proyecto 03: Dulce Huanca",
+              "tema": "Sistema de Ventas con Carrito de Compras con React + Vite",
+              "descripcion": "Sistema de Ventas con Carrito de Compras. Pedidos de una pastelería artesanal. Infografía, informe, código y diseño para Figma de este proyecto.",
+              "resumenChatbot": "Semana 09 de Taller, Proyecto 03 (Sistema de Ventas con Carrito de Compras): Dulce Huanca. Una vitrina digital con filtros por categoría y un carrito lateral que calcula subtotal, descuento escalonado, delivery y total. Al confirmar se genera un ticket y se descuenta el stock. Incluye informe en PDF y Word, infografía, código React + Vite y diseño para Figma.",
+              "explicacionTecnica": "Componentes: App, useCarrito, ProductCatalog, ProductCard, ShoppingCart, CartItem, CheckoutSummary. Métodos de arreglos: find() (producto y línea del carrito), reduce() (subtotal y unidades), map() (cantidades y descuento de stock), filter() (categoría, búsqueda y quitar). Validaciones: cantidad entre 1 y el stock; productos agotados sin botón; nombre del cliente obligatorio; montos con dos decimales.",
+              "abierta": false,
+              "archivos": [
+                {
                   "icono": "PDF",
-                  "titulo": "Informe Proyecto 03: Dulce Huanca",
-                  "subtitulo": "Sistema de Ventas con Carrito de Compras · PDF y Word",
+                  "titulo": "Informe del Proyecto 03",
+                  "subtitulo": "S09_Informe-Proyecto03-DulceHuanca.pdf · también en Word",
                   "verUrl": "pdfs/S09_Informe-Proyecto03-DulceHuanca.pdf",
                   "verTexto": "Ver PDF",
                   "descargarUrl": "pdfs/S09_Informe-Proyecto03-DulceHuanca.docx",
@@ -1177,9 +1239,49 @@
                   "descargarTexto": "Descargar Word"
                 },
                 {
+                  "icono": "ZIP",
+                  "titulo": "Código React + Vite: Dulce Huanca",
+                  "subtitulo": "S09_P03_DulceHuanca_codigo.zip · npm install y npm run dev",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P03_DulceHuanca_codigo.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "FIG",
+                  "titulo": "Diseño para Figma (SVG editables)",
+                  "subtitulo": "S09_P03_DulceHuanca_figma.zip · escritorio, móvil y guía de estilos",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P03_DulceHuanca_figma.zip",
+                  "descargarTexto": "Descargar .zip"
+                }
+              ],
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/",
+              "items": [
+                {
+                  "archivo": "S09_Infografia-Proyecto03-DulceHuanca.png",
+                  "titulo": "Infografía Proyecto 03",
+                  "subtitulo": "Dulce Huanca",
+                  "alt": "Infografía del proyecto Dulce Huanca"
+                }
+              ]
+            },
+            {
+              "id": "u3-semana-9-p04",
+              "numero": "9-p04",
+              "badge": "Semana 9 · P04",
+              "titulo": "Proyecto 04: Bella Studio",
+              "tema": "Sistema de Reservas y Citas con React + Vite",
+              "descripcion": "Sistema de Reservas y Citas. Agenda de un salón de belleza. Infografía, informe, código y diseño para Figma de este proyecto.",
+              "resumenChatbot": "Semana 09 de Taller, Proyecto 04 (Sistema de Reservas y Citas): Bella Studio. Una aplicación con dos vistas: Agenda y Clientas. Se registra a la clienta (o se elige una existente), se escoge el servicio en tarjetas, la fecha y una hora libre. La agenda se filtra por día y por nombre. Incluye informe en PDF y Word, infografía, código React + Vite y diseño para Figma.",
+              "explicacionTecnica": "Componentes: App, useReservas, AppointmentForm, ClientField, ServiceSelector, AppointmentList, AppointmentSummary. Métodos de arreglos: some() (horario tomado y celular repetido), find() (clienta y servicio de cada cita), filter() (fecha, estado y búsqueda), sort() (orden cronológico), reduce() (ingresos de citas activas). Validaciones: nombre y apellido de la clienta; celular de 9 dígitos único; fecha no pasada; horario libre y servicio obligatorio.",
+              "abierta": false,
+              "archivos": [
+                {
                   "icono": "PDF",
-                  "titulo": "Informe Proyecto 04: Bella Studio",
-                  "subtitulo": "Sistema de Reservas y Citas · PDF y Word",
+                  "titulo": "Informe del Proyecto 04",
+                  "subtitulo": "S09_Informe-Proyecto04-BellaStudio.pdf · también en Word",
                   "verUrl": "pdfs/S09_Informe-Proyecto04-BellaStudio.pdf",
                   "verTexto": "Ver PDF",
                   "descargarUrl": "pdfs/S09_Informe-Proyecto04-BellaStudio.docx",
@@ -1187,41 +1289,54 @@
                   "descargarTexto": "Descargar Word"
                 },
                 {
-                  "icono": "PDF",
-                  "titulo": "Manual de instalación React + Vite",
-                  "subtitulo": "Node.js, VS Code, Vite y ejecución de los 4 proyectos",
-                  "verUrl": "pdfs/S09_Manual-Instalacion-Cerron.pdf",
-                  "verTexto": "Ver PDF",
-                  "descargarUrl": "pdfs/S09_Manual-Instalacion-Cerron.docx",
-                  "descargarNombre": "S09_Manual-Instalacion-Cerron.docx",
-                  "descargarTexto": "Descargar Word"
+                  "icono": "ZIP",
+                  "titulo": "Código React + Vite: Bella Studio",
+                  "subtitulo": "S09_P04_BellaStudio_codigo.zip · npm install y npm run dev",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P04_BellaStudio_codigo.zip",
+                  "descargarTexto": "Descargar .zip"
+                },
+                {
+                  "icono": "FIG",
+                  "titulo": "Diseño para Figma (SVG editables)",
+                  "subtitulo": "S09_P04_BellaStudio_figma.zip · escritorio, móvil y guía de estilos",
+                  "verUrl": "https://github.com/sacijim/portafolio/releases/tag/semana09-taller",
+                  "verTexto": "Ver en GitHub",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/S09_P04_BellaStudio_figma.zip",
+                  "descargarTexto": "Descargar .zip"
                 }
               ],
               "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana09-taller/",
               "items": [
                 {
-                  "archivo": "S09_Infografia-Proyecto01-AulaViva.png",
-                  "titulo": "Infografía Proyecto 01: Aula Viva",
-                  "subtitulo": "Sistema de Gestión Académica",
-                  "alt": "Infografía del proyecto Aula Viva"
-                },
-                {
-                  "archivo": "S09_Infografia-Proyecto02-FarmaVida.png",
-                  "titulo": "Infografía Proyecto 02: FarmaVida",
-                  "subtitulo": "Sistema de Control de Inventario",
-                  "alt": "Infografía del proyecto FarmaVida"
-                },
-                {
-                  "archivo": "S09_Infografia-Proyecto03-DulceHuanca.png",
-                  "titulo": "Infografía Proyecto 03: Dulce Huanca",
-                  "subtitulo": "Sistema de Ventas con Carrito de Compras",
-                  "alt": "Infografía del proyecto Dulce Huanca"
-                },
-                {
                   "archivo": "S09_Infografia-Proyecto04-BellaStudio.png",
-                  "titulo": "Infografía Proyecto 04: Bella Studio",
-                  "subtitulo": "Sistema de Reservas y Citas",
+                  "titulo": "Infografía Proyecto 04",
+                  "subtitulo": "Bella Studio",
                   "alt": "Infografía del proyecto Bella Studio"
+                }
+              ]
+            },
+            {
+              "id": "u3-semana-9-manual",
+              "numero": "9-manual",
+              "badge": "Semana 9",
+              "titulo": "Manual de instalación del entorno React",
+              "tema": "Node.js, npm, Visual Studio Code y Vite",
+              "descripcion": "Guía paso a paso con capturas reales para instalar el entorno y ejecutar los cuatro proyectos.",
+              "resumenChatbot": "Semana 9 de Taller: manual de instalación con capturas reales de VS Code, Node.js, creación de proyectos con Vite, estructura de carpetas, ejecución de los 4 proyectos, build de producción y problemas frecuentes.",
+              "explicacionTecnica": "Pasos: instalar VS Code y Node.js LTS, verificar versiones, npm create vite@latest con plantilla react, npm install, npm run dev y npm run build.",
+              "abierta": false,
+              "archivos": [
+                {
+                  "icono": "PDF",
+                  "titulo": "Manual de instalación React + Vite",
+                  "subtitulo": "Node.js, VS Code, Vite y cómo ejecutar los 4 proyectos",
+                  "verUrl": "pdfs/S09_Manual-Instalacion-Cerron.pdf",
+                  "verTexto": "Ver PDF",
+                  "descargarUrl": "pdfs/S09_Manual-Instalacion-Cerron.docx",
+                  "descargarNombre": "S09_Manual-Instalacion-Cerron.docx",
+                  "descargarTexto": "Descargar Word"
                 }
               ]
             },
