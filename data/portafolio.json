@@ -714,8 +714,7 @@
                     "intercambiar  ·  Intercambiar dos alumnos",
                     "contarNodos  ·  Cantidad de alumnos",
                     "modificar  ·  Modificar datos",
-                    "estaVacia  ·  Verificar si esta vacia",
-                    "menu  ·  Menu principal (0. Salir)"
+                    "estaVacia  ·  Verificar si esta vacia"
                   ]
                 }
               ]
@@ -780,8 +779,114 @@
                     "intercambiar  ·  Intercambiar dos alumnos",
                     "contarNodos  ·  Cantidad de alumnos",
                     "modificar  ·  Modificar datos",
-                    "menu  ·  Menu principal (0. Salir)",
                     "CNodo  ·  Explicacion: nodos, enlaces y circularidad"
+                  ],
+                  "items": [
+                    {
+                      "archivo": "01-M1.png",
+                      "titulo": "Método 1",
+                      "subtitulo": "insertarInicio  ·  Insertar al inicio",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M1",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M1"
+                    },
+                    {
+                      "archivo": "01-M2.png",
+                      "titulo": "Método 2",
+                      "subtitulo": "insertarFinal  ·  Insertar al final",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M2",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M2"
+                    },
+                    {
+                      "archivo": "01-M3.png",
+                      "titulo": "Método 3",
+                      "subtitulo": "insertarPosicion  ·  Insertar en posicion X",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M3",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M3"
+                    },
+                    {
+                      "archivo": "01-M4.png",
+                      "titulo": "Método 4",
+                      "subtitulo": "insertarReferencia  ·  Insertar por referencia",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M4",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M4"
+                    },
+                    {
+                      "archivo": "01-M5.png",
+                      "titulo": "Método 5",
+                      "subtitulo": "eliminarInicio  ·  Eliminar el primero",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M5",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M5"
+                    },
+                    {
+                      "archivo": "01-M6.png",
+                      "titulo": "Método 6",
+                      "subtitulo": "eliminarFinal  ·  Eliminar el ultimo",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M6",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M6"
+                    },
+                    {
+                      "archivo": "01-M7.png",
+                      "titulo": "Método 7",
+                      "subtitulo": "eliminarPosicion  ·  Eliminar en posicion X",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M7",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M7"
+                    },
+                    {
+                      "archivo": "01-M8.png",
+                      "titulo": "Método 8",
+                      "subtitulo": "eliminarReferencia  ·  Eliminar por referencia",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M8",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M8"
+                    },
+                    {
+                      "archivo": "01-M9.png",
+                      "titulo": "Método 9",
+                      "subtitulo": "buscar  ·  Buscar por codigo",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M9",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M9"
+                    },
+                    {
+                      "archivo": "01-M10.png",
+                      "titulo": "Método 10",
+                      "subtitulo": "mostrar  ·  Recorrer la lista",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M10",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M10"
+                    },
+                    {
+                      "archivo": "01-M11.png",
+                      "titulo": "Método 11",
+                      "subtitulo": "ordenarPorCodigo  ·  Ordenar por codigo",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M11",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M11"
+                    },
+                    {
+                      "archivo": "01-M12.png",
+                      "titulo": "Método 12",
+                      "subtitulo": "intercambiar  ·  Intercambiar dos alumnos",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M12",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M12"
+                    },
+                    {
+                      "archivo": "01-M13.png",
+                      "titulo": "Método 13",
+                      "subtitulo": "contarNodos  ·  Cantidad de alumnos",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M13",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M13"
+                    },
+                    {
+                      "archivo": "01-M14.png",
+                      "titulo": "Método 14",
+                      "subtitulo": "modificar  ·  Modificar datos",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M14",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M14"
+                    },
+                    {
+                      "archivo": "01-M16.png",
+                      "titulo": "Explicación",
+                      "subtitulo": "CNodo  ·  Explicacion: nodos, enlaces y circularidad",
+                      "alt": "Proyecto 01 (Gestion de alumnos), imagen M16",
+                      "lightboxTitle": "Semana 11 · Proyecto 01 (Gestion de alumnos) · M16"
+                    }
                   ]
                 },
                 {
@@ -805,8 +910,7 @@
                     "proximo  ·  Proximo paciente",
                     "ordenarPorTurno  ·  Ordenar por numero de turno",
                     "intercambiar  ·  Intercambiar dos pacientes",
-                    "modificar  ·  Modificar paciente",
-                    "menu  ·  Menu principal (0. Salir)"
+                    "modificar  ·  Modificar paciente"
                   ]
                 }
               ]
