@@ -886,8 +886,61 @@
           "dot": "U4",
           "titulo": "Unidad 4: ARBOLES, GRAFOS, MÉTODOS DE ORDENACIÓN Y BÚSQUEDA",
           "meta": "Semanas 13 a 16",
-          "abierta": false,
-          "semanas": []
+          "abierta": true,
+          "semanas": [
+            {
+              "id": "u4-semana-13",
+              "numero": 13,
+              "badge": "Semana 13",
+              "titulo": "Tema: Lista doblemente enlazada circular",
+              "tema": "Lista doble circular: alumnos, promedio general, aprobados y desaprobados",
+              "descripcion": "Entregas de la semana: 20 infografias y codigo fuente en NetBeans.",
+              "resumenChatbot": "Semana 13 de Algoritmos: Lista doblemente enlazada circular de alumnos (codigo, nombre, nota1, nota2, promedio). La lista guarda cabeza, cola y tamano; el siguiente de la cola es la cabeza y el anterior de la cabeza es la cola. 20 operaciones: insertar (inicio, final, posicion, despues de un codigo), recorrer en ambos sentidos, buscar por codigo y posicion, eliminar (inicio, final, posicion, codigo), ordenar por promedio, intercambiar, modificar, tamano, lista vacia, promedio general, aprobados y desaprobados (aprobado: promedio >= 10.5). 20 infografias. Version sacijim Java 11, codigo en Semana13_sacijim.zip.",
+              "explicacionTecnica": "Version sacijim Java 11: CListaDobleCircular con cabeza, cola y tamano; cerrarCirculo() vuelve a unir la cola con la cabeza despues de cada insercion o eliminacion en los extremos, y los recorridos usan do-while hasta volver a la cabeza.",
+              "abierta": true,
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana13-algoritmos/",
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — proyecto NetBeans CSemana13",
+                  "subtitulo": "Semana13_sacijim.zip",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana13-algoritmos/Semana13_sacijim.zip",
+                  "descargarTexto": "Descargar .zip",
+                  "descargarNombre": "Semana13_sacijim.zip"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Lista doble circular (Gestion de alumnos)",
+                  "tema": "Sistema de alumnos con lista doblemente enlazada circular",
+                  "explicacion": "Proyecto NetBeans CSemana13 (Modelo/CNodo, Modelo/Alumno, DAO/CListaDobleCircular, Vista/MenuOpciones, Vista/Principal). El siguiente de la cola es la cabeza y el anterior de la cabeza es la cola. Cada infografia dibuja los nodos y las dos vueltas del circulo, la entrada y salida real de la consola y explica el codigo linea por linea.",
+                  "metodos": [
+                    "insertarInicio  ·  Insertar al inicio",
+                    "insertarFinal  ·  Insertar al final",
+                    "insertarPosicion  ·  Insertar en posicion",
+                    "insertarDespuesDe  ·  Insertar despues de un codigo",
+                    "recorrerAdelante  ·  Mostrar cabeza a cola",
+                    "recorrerAtras  ·  Mostrar cola a cabeza",
+                    "buscarPorCodigo  ·  Buscar por codigo",
+                    "buscarPorPosicion  ·  Buscar por posicion",
+                    "eliminarInicio  ·  Eliminar al inicio",
+                    "eliminarFinal  ·  Eliminar al final",
+                    "eliminarPosicion  ·  Eliminar en posicion",
+                    "eliminarPorCodigo  ·  Eliminar por codigo",
+                    "ordenarPorPromedio  ·  Ordenar por promedio",
+                    "intercambiar  ·  Intercambiar alumnos",
+                    "modificar  ·  Modificar alumno",
+                    "obtenerTamano  ·  Tamano de la lista",
+                    "estaVacia  ·  Verificar si esta vacia",
+                    "hallarPromedio  ·  Hallar promedio general",
+                    "alumnosAprobados  ·  Alumnos aprobados",
+                    "alumnosDesaprobados  ·  Alumnos desaprobados"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "unidad-integral",
