@@ -1043,6 +1043,167 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "u4-semana-14",
+              "numero": 14,
+              "badge": "Semana 14",
+              "titulo": "Tema: Arboles binarios de busqueda",
+              "tema": "Proyecto 1: gestion y busqueda de productos de un almacen con BST e interfaz grafica",
+              "descripcion": "Entregas de la semana: informe tecnico en 16 infografias y codigo fuente en NetBeans.",
+              "resumenChatbot": "Semana 14 de Algoritmos: Arboles. Proyecto 1, sistema de gestion y busqueda de productos para un almacen comercial: aplicacion de escritorio en Java con interfaz grafica y arquitectura Modelo - DAO - Vista. Cada producto (codigo, nombre, categoria, marca, precio, stock, fecha de registro) se guarda en un arbol binario de busqueda ordenado por codigo (izquierda menores, derecha mayores). 15 operaciones: registrar, insertar, buscar, actualizar, eliminar (hoja, un hijo, dos hijos), recorridos inorden, preorden y postorden, codigo menor y mayor, reporte ascendente (inorden), stock menor a un limite y valor total del inventario (suma de precio x stock). 16 infografias: informe tecnico + una por operacion. Version sacijim Java 11 (Swing), codigo en Semana14_sacijim.zip.",
+              "explicacionTecnica": "Version sacijim Java 11: ArbolProductos con metodos recursivos (insertarRec, buscarRec, eliminarRec); al eliminar un nodo con dos hijos se copia el sucesor inorden (el menor de la derecha). FrmAlmacen (Swing + Nimbus) dibuja el arbol y resalta el camino de cada busqueda.",
+              "abierta": true,
+              "baseUrl": "https://github.com/sacijim/portafolio/releases/download/semana14-algoritmos/",
+              "archivos": [
+                {
+                  "icono": "ZIP",
+                  "titulo": "Codigo Java — proyecto NetBeans AlmacenProductos",
+                  "subtitulo": "Semana14_sacijim.zip",
+                  "descargarUrl": "https://github.com/sacijim/portafolio/releases/download/semana14-algoritmos/Semana14_sacijim.zip",
+                  "descargarTexto": "Descargar .zip",
+                  "descargarNombre": "Semana14_sacijim.zip"
+                }
+              ],
+              "ejercicios": [
+                {
+                  "numero": "01",
+                  "titulo": "Proyecto 1 (Almacen comercial con BST)",
+                  "tema": "Sistema de gestion y busqueda de productos con arbol binario de busqueda",
+                  "explicacion": "Proyecto NetBeans AlmacenProductos (Modelo/Producto, Modelo/NodoProducto, DAO/ArbolProductos, Vista/FrmAlmacen, Vista/PanelArbol, Vista/Principal). Cada infografia trae el grafico del arbol, la captura real de la ventana, la entrada y salida reales y el codigo explicado linea por linea.",
+                  "metodos": [
+                    "registrar  ·  Registrar producto",
+                    "insertar  ·  Insertar en el arbol",
+                    "buscar  ·  Buscar por codigo",
+                    "actualizar  ·  Actualizar producto",
+                    "eliminar  ·  Eliminar nodo hoja",
+                    "eliminar  ·  Eliminar nodo con un hijo",
+                    "eliminar  ·  Eliminar nodo con dos hijos",
+                    "inorden  ·  Recorrido inorden",
+                    "preorden  ·  Recorrido preorden",
+                    "postorden  ·  Recorrido postorden",
+                    "minimo  ·  Codigo menor (minimo)",
+                    "maximo  ·  Codigo mayor (maximo)",
+                    "reporteAscendente  ·  Reporte ascendente",
+                    "stockBajo  ·  Stock menor a un limite",
+                    "valorTotal  ·  Valor total del inventario"
+                  ],
+                  "items": [
+                    {
+                      "archivo": "01-INF.png",
+                      "titulo": "Informe tecnico",
+                      "subtitulo": "Problema, objetivo, requerimientos, MVC, conclusiones y pruebas",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), informe tecnico",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · Informe tecnico"
+                    },
+                    {
+                      "archivo": "01-M1.png",
+                      "titulo": "Método 1",
+                      "subtitulo": "registrar  ·  Registrar producto",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M1",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M1"
+                    },
+                    {
+                      "archivo": "01-M2.png",
+                      "titulo": "Método 2",
+                      "subtitulo": "insertar  ·  Insertar en el arbol",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M2",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M2"
+                    },
+                    {
+                      "archivo": "01-M3.png",
+                      "titulo": "Método 3",
+                      "subtitulo": "buscar  ·  Buscar por codigo",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M3",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M3"
+                    },
+                    {
+                      "archivo": "01-M4.png",
+                      "titulo": "Método 4",
+                      "subtitulo": "actualizar  ·  Actualizar producto",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M4",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M4"
+                    },
+                    {
+                      "archivo": "01-M5.png",
+                      "titulo": "Método 5",
+                      "subtitulo": "eliminar  ·  Eliminar nodo hoja",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M5",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M5"
+                    },
+                    {
+                      "archivo": "01-M6.png",
+                      "titulo": "Método 6",
+                      "subtitulo": "eliminar  ·  Eliminar nodo con un hijo",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M6",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M6"
+                    },
+                    {
+                      "archivo": "01-M7.png",
+                      "titulo": "Método 7",
+                      "subtitulo": "eliminar  ·  Eliminar nodo con dos hijos",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M7",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M7"
+                    },
+                    {
+                      "archivo": "01-M8.png",
+                      "titulo": "Método 8",
+                      "subtitulo": "inorden  ·  Recorrido inorden",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M8",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M8"
+                    },
+                    {
+                      "archivo": "01-M9.png",
+                      "titulo": "Método 9",
+                      "subtitulo": "preorden  ·  Recorrido preorden",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M9",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M9"
+                    },
+                    {
+                      "archivo": "01-M10.png",
+                      "titulo": "Método 10",
+                      "subtitulo": "postorden  ·  Recorrido postorden",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M10",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M10"
+                    },
+                    {
+                      "archivo": "01-M11.png",
+                      "titulo": "Método 11",
+                      "subtitulo": "minimo  ·  Codigo menor (minimo)",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M11",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M11"
+                    },
+                    {
+                      "archivo": "01-M12.png",
+                      "titulo": "Método 12",
+                      "subtitulo": "maximo  ·  Codigo mayor (maximo)",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M12",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M12"
+                    },
+                    {
+                      "archivo": "01-M13.png",
+                      "titulo": "Método 13",
+                      "subtitulo": "reporteAscendente  ·  Reporte ascendente",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M13",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M13"
+                    },
+                    {
+                      "archivo": "01-M14.png",
+                      "titulo": "Método 14",
+                      "subtitulo": "stockBajo  ·  Stock menor a un limite",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M14",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M14"
+                    },
+                    {
+                      "archivo": "01-M15.png",
+                      "titulo": "Método 15",
+                      "subtitulo": "valorTotal  ·  Valor total del inventario",
+                      "alt": "Proyecto 1 (Almacen comercial con BST), imagen M15",
+                      "lightboxTitle": "Semana 14 · Proyecto 1 (Almacen comercial con BST) · M15"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
